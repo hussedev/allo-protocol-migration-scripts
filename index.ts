@@ -1,7 +1,7 @@
 import { migrateProfiles } from "./profile/migrateProfiles";
 
 function main() {
-  console.log("Starting migration script \n");
+  console.log("Starting profile migration script \n");
 
   migrateProfiles();
 
