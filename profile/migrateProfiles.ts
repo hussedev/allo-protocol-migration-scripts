@@ -10,11 +10,13 @@ export const migrateProfiles = async () => {
   console.table("Migrating profiles from v1 to v2 \n");
 
   // Fetch all profiles from the indexer for v1 and store in database
-  fetchV1Profiles();
+  await fetchV1Profiles();
 
   // Create a new profile for each fetched profile
-  createV2Profiles();
+  await createV2Profiles();
 
   // Post the new profiles to the indexer for v2
-  postV2Profiles();
+  await postV2Profiles();
+
+  console.table("Profile migration from v1 to v2 complete 🥳 \n");
 };

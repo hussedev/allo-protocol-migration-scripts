@@ -1,11 +1,11 @@
 import { migrateProfiles } from "./profile/migrateProfiles";
 
-function main() {
+async function main() {
   console.log("Starting profile migration script \n");
 
-  migrateProfiles();
+  await migrateProfiles();
 
-  console.log("Profile migration from v1 to v2 complete 🥳 \n");
+  console.log("Profile migration script complete 🥳 \n");
 }
 
 main();
