@@ -1,15 +1,31 @@
-import { createV1ToV2Mapping } from "../offchain-data/createMappings";
+import { Registry } from "@allo-team/allo-v2-sdk/";
+import { TransactionData } from "@allo-team/allo-v2-sdk/dist/Common/types";
+import { ProfileData } from "../types";
 
-export const createV2Profiles = async () => {
-  // TODO: create a new profile for each v1 profile
-  console.log("Creating v2 profiles \n");
 
-  // TODO: fetch the v1 profiles from the database
+export const batchCreateProfiles = async (
+  profiles: ProfileData[],
+  chain: number
+) => {
+  const registry = new Registry({ chain: chain });
+  
 
-  // TODO: create a new profile for each v1 profile
+  // make chunks of 50
 
-  console.log("V2 profiles created \n");
+  for (const profile of profiles) {
+    const { nonce, name, metadata, owner, members } = profile;
+    
+    const txCreateProfile: TransactionData = await registry.createProfile({
+      nonce: nonce,
+      name: name,
+      metadata: {
+        protocol: BigInt(0),
+        pointer: metadata.pointer,
+      },
+      owner: owner,
+      members: [],
+    });
+  
+  }
 
-  // TODO: create the mappings from v1 to v2 profiles
-  createV1ToV2Mapping({});
 };

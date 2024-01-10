@@ -1,52 +1,66 @@
-import { Network, networks } from "../common/networks";
-// import { storeV1Profiles } from "../offchain-data/storeProfiles";
-// import { Client as AlloClient } from "allo-indexer-client";
+import { gql, request } from "graphql-request";
+import { ProfileData, ProjectData } from "../types";
 
-export const indexerUrl = "https://indexer-production.fly.dev/data";
+export const graphqlEndpoint = "https://indexer-staging.fly.dev/graphql";
+
+const supportedChainIds = [
+  1, // mainnet
+];
+
+const fetchProjectsFromChain = gql`
+  query getProjectsFromChain($chainId: number!) {
+    projects(condition: {chainId: $chainId}) {
+      id
+      ownerAddresses
+      metadataCid
+      metadata
+    }
+  }
+`
+
+const transformProjectsToProfiles = (projects: ProjectData[]) => {
+  const profiles: ProfileData[] = [];
+
+  for (const project of projects) {
+    const { id, ownerAddresses, metadataCid, metadata } = project;
+
+    const profile: ProfileData = {
+      nonce: 0,
+      name: metadata["name"],
+      metadata: {
+        protocol: 0,
+        pointer: metadataCid,
+      },
+      owner: ownerAddresses[0],
+      members: ownerAddresses,
+    };
+
+    profiles.push(profile);
+  }
+
+  return profiles;
+}
 
 export const fetchV1Profiles = async () => {
-  console.log("Fetching profiles from v1 \n");
+  const profiles: ProfileData[] = [];
 
-  const headers = new Headers();
-  headers.append("Content-Type", "application/json");
+  for (const chainId of supportedChainIds) {
 
-  let request: any;
+    // fetch project by chain from indexer
+    const response: any = await request(
+      graphqlEndpoint,
+      fetchProjectsFromChain,
+      {
+        chainId: chainId,
+        offset: 0
+      }
+    );
 
-  // loop through the supported networks
-  const supportedNetworks = networks;
-  supportedNetworks.forEach((network: Network) => {
-    request = new Request(`${indexerUrl}/${network.id}/projects.json`, {
-      method: "GET",
-      headers: headers,
-      mode: "cors",
-    });
+    // transform projects to profiles
+    const profilesOnChain = transformProjectsToProfiles(response.projects);
 
-    // fetch all profiles from the indexer for v1
-    fetch(request)
-      .then(async (response: any) => {
-        if (response.status >= 200 && response.status < 300) {
-          console.log(
-            "Successfully fetched v1 profile data \n",
-            await response
-          );
+    profiles.push(profilesOnChain);
+  }
 
-          // Store them in the database
-          // storeV1Profiles(response);
-        } else {
-          throw new Error("Error fetching v1 profile data");
-        }
-      })
-      .catch((err) => {
-        console.error(err);
-      });
-  });
-
-  // Use the indexer like builder does here...
-  // const client = new AlloClient(
-  //   fetch,
-  //   indexerUrl,
-  //   ""
-  // );
-
-  // const profiles = await client.getProfiles();
-};
+  return profiles;
+}
