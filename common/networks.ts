@@ -1,52 +1,22 @@
-export type Network = {
-  id: string;
-  name?: string;
-};
+export const mainnets: number[] = [
+  1, // mainnet
+  10, // optimism
+  137, // polygon
+  250, // fantom
+  324, // zksync-era-mainnet
+  42161, // arbitrum-one
+  424, // pgn-mainnet
+  43114, // avalanche
+  8453, // base
+]
 
-export const networks: Network[] = [
-  {
-    id: "1",
-    name: "mainnet",
-  },
-  {
-    id: "10",
-    name: "optimism",
-  },
-  {
-    id: "137",
-    name: "polygon",
-  },
-  {
-    id: "250",
-    name: "fantom",
-  },
-  {
-    id: "280",
-    name: "zksync-era-testnet",
-  },
-  {
-    id: "324",
-    name: "zksync-era-mainnet",
-  },
-  {
-    id: "42161",
-    name: "arbitrum-one",
-  },
-  {
-    id: "421613",
-    name: "arbitrum-goerli",
-  },
-  {
-    id: "424",
-    name: "pgn-mainnet",
-  },
-  // No profiles on these networks yet
-  // {
-  //   id: "80001",
-  //   name: "polygon-mumbai",
-  // },
-  // {
-  //   id: "8453",
-  //   name: "base",
-  // },
-];
+export const testnets: number[] = [
+  5, // goerli
+  4002, // fantom-testnet
+  11155111, // sepolia
+  280, // zksync-era-testnet
+  421613, // arbitrum-goerli
+  58008, // pgn-testnet
+  43113, // fuji
+  80001, // polygon-mumbai
+]

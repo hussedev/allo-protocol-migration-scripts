@@ -1,12 +1,16 @@
 export type ProfileData = {
-  nonce: number;
-  name: string;
-  metadata: {
-    protocol: number;
-    pointer: string;
-  };
-  owner: string;
-  members: string[];
+  projectId: string;
+  chainId: number;
+  data: {
+    nonce: number;
+    name: string;
+    metadata: {
+      protocol: number;
+      pointer: string;
+    };
+    owner: string;
+    members: string[];
+  }
 }
 
 
