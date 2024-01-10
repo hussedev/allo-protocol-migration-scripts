@@ -1,0 +1,72 @@
+[
+  {
+    "projectId": "0x3a45cc3919b87160fc4fcdba8a051ee25089324b915f30489968e987c5ebe260",
+    "chainId": 58008,
+    "data": {
+      "nonce": 1000,
+      "name": "Test PGN Project",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreibpnhfjmpsdlwoys766mjgz7kfgvcivipmqfzuai2xa56usr3xk34"
+      },
+      "owner": "0x37e5e6eb36467f98392ebbb35f110fbb8238e6d3",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0xb755753109e0bc5ac96596e7d317adab023f2f95cd058942ee9f52ded914bf29",
+    "chainId": 58008,
+    "data": {
+      "nonce": 1000,
+      "name": "Test",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreidkddjeksg3euco2votabjouqqonuodd6odicjzj74qof63scpy2i"
+      },
+      "owner": "0x4f2688db3eab3115b6f0671ab9f8fb3ebde14394",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0xe6758daae136422d57a698ce06593b95e7517a5036da0746124150784fbc166e",
+    "chainId": 58008,
+    "data": {
+      "nonce": 1000,
+      "name": "Book Club",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreidscsococdgbn2mfcie5vmzlw3epj4mslatiwpdkknoox6724a5ry"
+      },
+      "owner": "0x58338e95caef17861916ef10dad5fafe20421005",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0xed4edd39c89a20670cc1aa126ee79fef58d252ae80ddcce6af427917a3ebd837",
+    "chainId": 58008,
+    "data": {
+      "nonce": 1000,
+      "name": "Book Club",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreihbyj3syi5nzvt4xyh7h4gtz2wwlstgngh2ofnhkagf36got26lju"
+      },
+      "owner": "0x58338e95caef17861916ef10dad5fafe20421005",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0xf4f660a53e317a5d26461f2943f559cb4d089c2ff8e76da4b928b0b664891780",
+    "chainId": 58008,
+    "data": {
+      "nonce": 1000,
+      "name": "PGN Testing Project",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreicnay35say3kt2ztociukuf5hhv2u27okxzw5w7c5qsp72euffdpa"
+      },
+      "owner": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "members": []
+    }
+  }
+]

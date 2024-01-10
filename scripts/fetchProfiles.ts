@@ -1,12 +1,12 @@
-import { gql, request } from "graphql-request";
-import { ProfileData, ProjectData } from "../types";
-import { testnets } from "../common/networks";
 import fs from "fs";
+import { gql, request } from "graphql-request";
+import { mainnets } from "../common/networks";
+import { ProfileData, ProjectData } from "../types";
 
 // ====== CONFIG ====== //
 export const graphqlEndpoint = "https://indexer-staging.fly.dev/graphql";
 const CHAIN = "testnet";
-const supportedChainIds = testnets;
+const supportedChainIds = mainnets;
 const DEFAULT_NONCE = 1000;
 // ==================== //
 
@@ -14,8 +14,8 @@ const DEFAULT_NONCE = 1000;
 const nonces: { [key: string]: number } = {};
 
 const fetchProjectsFromChain = gql`
-  query getProjectsFromChain($chainId: number!) {
-    projects(condition: {chainId: $chainId}) {
+  query getProjectsFromChain($chainId: Int!) {
+    projects(condition: {chainId: $chainId}, filter: {metadata: {isNull: false}}) {
       id
       ownerAddresses
       metadataCid
@@ -25,6 +25,7 @@ const fetchProjectsFromChain = gql`
 `
 
 const transformProjectsToProfiles = (projects: ProjectData[], chainId: number) => {
+  console.log(`Transforming ${projects.length} projects to profiles for chain ${chainId}`);
   const profiles: ProfileData[] = [];
 
   for (const project of projects) {
@@ -44,6 +45,8 @@ const transformProjectsToProfiles = (projects: ProjectData[], chainId: number) =
       owner: ownerAddresses[0],
       members: [],
     };
+
+    // console.log(data);
 
     const profile: ProfileData = {
       projectId: id,
@@ -74,8 +77,6 @@ export const fetchV1Profiles = async () => {
     // transform projects to profiles
     const profilesOnChain = transformProjectsToProfiles(response.projects, chainId);
 
-    console.log(`Fetched ${profilesOnChain.length} profiles from chain ${chainId}`);
-
     profiles.push(...profilesOnChain);
 
     // Write profiles to file for each chain
@@ -83,6 +84,8 @@ export const fetchV1Profiles = async () => {
       `./data/profiles-${chainId}.json`,
       JSON.stringify(profilesOnChain, null, 2)
     );
+
+    console.log(`total profiles for ${chainId}: `, profilesOnChain.length);
   }
 
   // Write all profiles to master file
@@ -90,6 +93,8 @@ export const fetchV1Profiles = async () => {
     `./data/profiles-master-${CHAIN}.json`,
     JSON.stringify(profiles, null, 2)
   );
+
+  console.log("total profiles: ", profiles.length);
 
   return profiles;
 }
