@@ -1,12 +1,12 @@
 import fs from "fs";
 import { gql, request } from "graphql-request";
-import { mainnets } from "../common/networks";
+import { mainnets, testnets } from "../common/networks";
 import { ProfileData, ProjectData } from "../types";
 
 // ====== CONFIG ====== //
 export const graphqlEndpoint = "https://indexer-staging.fly.dev/graphql";
-const CHAIN = "testnet";
-const supportedChainIds = mainnets;
+const CHAIN = process.env.CHAIN ?? "testnet";
+const supportedChainIds = CHAIN == "testnet" ? testnets : mainnets;
 const DEFAULT_NONCE = 1000;
 // ==================== //
 
@@ -15,22 +15,30 @@ const nonces: { [key: string]: number } = {};
 
 const fetchProjectsFromChain = gql`
   query getProjectsFromChain($chainId: Int!) {
-    projects(condition: {chainId: $chainId}, filter: {metadata: {isNull: false}}) {
+    projects(
+      condition: { chainId: $chainId }
+      filter: { metadata: { isNull: false } }
+    ) {
       id
       ownerAddresses
       metadataCid
       metadata
     }
   }
-`
+`;
 
-const transformProjectsToProfiles = (projects: ProjectData[], chainId: number) => {
-  console.log(`Transforming ${projects.length} projects to profiles for chain ${chainId}`);
+const transformProjectsToProfiles = (
+  projects: ProjectData[],
+  chainId: number
+) => {
+  console.log(
+    `Transforming ${projects.length} projects to profiles for chain ${chainId}`
+  );
   const profiles: ProfileData[] = [];
 
   for (const project of projects) {
     const { id, ownerAddresses, metadataCid, metadata } = project;
-    
+
     // increment nonce for each owner address
     nonces[ownerAddresses[0]] = nonces[ownerAddresses[0]]++ || DEFAULT_NONCE;
 
@@ -58,24 +66,26 @@ const transformProjectsToProfiles = (projects: ProjectData[], chainId: number) =
   }
 
   return profiles;
-}
+};
 
 export const fetchV1Profiles = async () => {
   const profiles: ProfileData[] = [];
 
   for (const chainId of supportedChainIds) {
-
     // fetch project by chain from indexer
     const response: any = await request(
       graphqlEndpoint,
       fetchProjectsFromChain,
       {
-        chainId: chainId
+        chainId: chainId,
       }
     );
 
     // transform projects to profiles
-    const profilesOnChain = transformProjectsToProfiles(response.projects, chainId);
+    const profilesOnChain = transformProjectsToProfiles(
+      response.projects,
+      chainId
+    );
 
     profiles.push(...profilesOnChain);
 
@@ -97,7 +107,6 @@ export const fetchV1Profiles = async () => {
   console.log("total profiles: ", profiles.length);
 
   return profiles;
-}
-
+};
 
 fetchV1Profiles();
