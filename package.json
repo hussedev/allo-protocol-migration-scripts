@@ -2,6 +2,9 @@
   "name": "migration-scripts",
   "module": "index.ts",
   "type": "module",
+  "dependencies": {
+    "allo-indexer-client": "github:gitcoinco/allo-indexer-client"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },
