@@ -50,7 +50,9 @@ export const migrate = async () => {
       console.log("Creating profiles for batch", i);
       
       const staticCallResult = await bulkCreationContract.callStatic.createProfiles(encodedProfileData);
-      const createTx = await bulkCreationContract.createProfiles(encodedProfileData);
+      const createTx = await bulkCreationContract.createProfiles(
+        encodedProfileData
+      );
 
       await createTx.wait();
       const response =  staticCallResult.toString();
@@ -77,6 +79,11 @@ export const migrate = async () => {
     // TODO: append mapping in a file for a batch
 
   }
+  // Write mapping to file
+  fs.writeFileSync(
+    `./data/mapping-${CHAIN}.json`,
+    JSON.stringify(projectToProfileMapping, null, 2)
+  );
 
 };
 
