@@ -9,7 +9,7 @@ dotenv.config();
 // ====== CONFIG ====== //
 const CHAIN = process.env.CHAIN ?? "testnet";
 const CANONICAL_CHAIN_ID = process.env.CANONICAL_CHAIN_ID;
-const CHUNK_SIZE = Number(process.env.CHUNK_SIZE);
+const BATCH_SIZE = Number(process.env.BATCH_SIZE);
 // ==================== //
 
 export const migrate = async () => {
@@ -19,19 +19,20 @@ export const migrate = async () => {
 
   const profileDatas: ProfileData[] = JSON.parse(fs.readFileSync(FILE_PATH).toString());
   
-  const BATCHES = Math.ceil(profileDatas.length / CHUNK_SIZE);
+  const BATCHES = Math.ceil(profileDatas.length / BATCH_SIZE);
 
   console.table({
     "task": `migrating profiles onto ${CANONICAL_CHAIN_ID}`,
     "input": FILE_PATH,
     "profiles": profileDatas.length,
+    "batch size": BATCH_SIZE,
     "number of transactions": BATCHES,
   });
 
   let projectToProfileMapping: AlloV1ToV2Mapping[] = [];
 
   for (let i = 0; i < BATCHES; i++) {
-    const profileDataBatch = profileDatas.slice(i * CHUNK_SIZE, (i + 1) * CHUNK_SIZE);
+    const profileDataBatch = profileDatas.slice(i * BATCH_SIZE, (i + 1) * BATCH_SIZE);
 
     // Get actual data needed for creation
     const encodedProfileData = encodeDataForCreateProfiles(profileDataBatch);
@@ -57,6 +58,7 @@ export const migrate = async () => {
 
     } catch (e) {
       // TODO: handle error
+      console.error(e);
       throw new Error("Error creating profiles");
     }
 
