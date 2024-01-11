@@ -57,7 +57,7 @@ export const migrate = async () => {
 
     } catch (e) {
       // TODO: handle error
-      console.log(e);
+      throw new Error("Error creating profiles");
     }
 
     // Create the mapping
