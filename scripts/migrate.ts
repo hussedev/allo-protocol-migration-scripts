@@ -1,7 +1,6 @@
 import * as dotenv from "dotenv";
 import ethers, { Contract } from "ethers";
 import fs from "fs";
-import { mainnets, testnets } from "../common/networks";
 import { AlloV1ToV2Mapping, ProfileData } from "../types";
 import { abiEncoder, bulkCreationContract, decodeResultFromCreateProfiles, encodeDataForCreateProfiles } from "../common/client";
 
@@ -20,7 +19,7 @@ export const migrate = async () => {
 
   const profileDatas: ProfileData[] = JSON.parse(fs.readFileSync(FILE_PATH).toString());
   
-  const BATCHES = profileDatas.length / CHUNK_SIZE;
+  const BATCHES = Math.ceil(profileDatas.length / CHUNK_SIZE);
 
   console.table({
     "task": `migrating profiles onto ${CANONICAL_CHAIN_ID}`,
@@ -37,7 +36,7 @@ export const migrate = async () => {
     // Get actual data needed for creation
     const profiles = [];
     let encodedProfileData;
-    let decodedProfiles: string[] = [];
+    let decodedProfiles;
 
     for (let j = 0; j < batch.length; j++) {
       const profileData = batch[j];
@@ -49,8 +48,12 @@ export const migrate = async () => {
     try {
       console.log("Creating profiles for batch", i);
       
-      const staticCallResult = await bulkCreationContract.callStatic.createProfiles(encodedProfileData);
+      const staticCallResult = await bulkCreationContract.callStatic.createProfiles(
+        process.env.REGISTRY_ADDRESS,
+        encodedProfileData
+      );
       const createTx = await bulkCreationContract.createProfiles(
+        process.env.REGISTRY_ADDRESS,
         encodedProfileData
       );
 
@@ -71,7 +74,7 @@ export const migrate = async () => {
       projectToProfileMapping.push({
         projectId: profileData.projectId,
         projectChainId: profileData.chainId,
-        profileId: decodedProfiles[j] as string,
+        profileId: decodedProfiles![j] as string,
         profileChainId: Number(CANONICAL_CHAIN_ID),
       });
     }
