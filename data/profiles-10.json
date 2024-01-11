@@ -7938,6 +7938,20 @@
     }
   },
   {
+    "projectId": "0x521cb35b9761897ff789d1a578188b4b62cf4573729b1c32bde8849adf51a75a",
+    "chainId": 10,
+    "data": {
+      "nonce": 1000,
+      "name": "LunCo: Astrobotics Peregrine Lander Sim",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreiadj32qljr2qoarjuu7oaucs2mpmscltqrzbrelgxtjtwxekviinq"
+      },
+      "owner": "0xa64f2228ccec96076c82abb903021c33859082f8",
+      "members": []
+    }
+  },
+  {
     "projectId": "0x5221561e1a34cf74dfd7492adc49021051d2b358287e7bde067170516d472533",
     "chainId": 10,
     "data": {
@@ -8746,6 +8760,20 @@
         "pointer": "bafkreic44meiee6mjvqgvegqeeqzt4emwbvtum2rrbmq42pyknmp3hm35u"
       },
       "owner": "0x301cb9e9277654fa2784065aa701e73b2dda6a76",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0x5ba5f7b2a4a42d6cf0f924c35bc823f35b122b62a0b9893abe0e39067ee9ba2a",
+    "chainId": 10,
+    "data": {
+      "nonce": 1000,
+      "name": "Model-Based Systems Engineering",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreibpwubthl466b5r232sirkjragd5ndkucd23k3xjar7nft3bwka34"
+      },
+      "owner": "0xa64f2228ccec96076c82abb903021c33859082f8",
       "members": []
     }
   },
@@ -11809,7 +11837,7 @@
       "name": "LunCo - collaborative systems engineering",
       "metadata": {
         "protocol": 1,
-        "pointer": "bafkreidj3zrgt5eafk7skqwsn7flmumg4jy374ekuuqcyyx6p4york6nam"
+        "pointer": "bafkreiavmepdokismex5g4d5sf3lqbyl6tawvcjmtvlswji6ctvrgwi3su"
       },
       "owner": "0xa64f2228ccec96076c82abb903021c33859082f8",
       "members": []
@@ -16800,6 +16828,34 @@
     }
   },
   {
+    "projectId": "0xb103780848c8677df4a398c266842bdbab78abe0bb4fae9fb63573b8db61a67d",
+    "chainId": 10,
+    "data": {
+      "nonce": 1000,
+      "name": "Solar Energy Design Subsystem",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreiccmu7bdmj4rg5epcloh4c6gyfbc4nzb5sct62r7tvnx5plxvoeoy"
+      },
+      "owner": "0xa64f2228ccec96076c82abb903021c33859082f8",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0xb176f6d5ae24ddeea24921e506f9d41fcfebbd9ed476a6b3b41a9d6cefd6ea9f",
+    "chainId": 10,
+    "data": {
+      "nonce": 1000,
+      "name": "Requirements Management Subsystem",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreifpwvt2md5ctf33mr4skmt2mmc4l2zmgheur5yitasxrrvxrefztq"
+      },
+      "owner": "0xa64f2228ccec96076c82abb903021c33859082f8",
+      "members": []
+    }
+  },
+  {
     "projectId": "0xb1d64e887edc6bb2cb13e2a13136aa48bf45c5ae9501a463184c49e65035b7c8",
     "chainId": 10,
     "data": {
@@ -19022,6 +19078,20 @@
         "pointer": "bafkreibcvpcpffjfmpdsevngupmiqrui22ucua3i35vduzwgm6x6tm2nau"
       },
       "owner": "0x7c94803e9f63706437e91606bcb58a07a6789157",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0xcb27d73e156c7d3e4dd7dba6cab62839888a711d74bd1817e5fd0afcfe1eb1b9",
+    "chainId": 10,
+    "data": {
+      "nonce": 1000,
+      "name": "Token Engineering Submodule",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreih3qkuuas7w4d6wp2sedikljivihx74nltnhhvitbxjjfcxpyclpy"
+      },
+      "owner": "0xa64f2228ccec96076c82abb903021c33859082f8",
       "members": []
     }
   },

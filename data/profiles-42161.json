@@ -2548,6 +2548,20 @@
     }
   },
   {
+    "projectId": "0x6f614af644416536a357b6da5a3a5b51db79dbd89585766fffab2a749b0f374d",
+    "chainId": 42161,
+    "data": {
+      "nonce": 1000,
+      "name": "gitcoin pass grant",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreigziivodmhzboeowynjqnjgev6hnf67lhytk63nzzlc3kiy2k4he4"
+      },
+      "owner": "0xe2c434a8bc7b8ebde69234d125889157e4a5c307",
+      "members": []
+    }
+  },
+  {
     "projectId": "0x6fce9703bd459094704ea7b8439b2419ea587ac13975bede03219621fd85830d",
     "chainId": 42161,
     "data": {
