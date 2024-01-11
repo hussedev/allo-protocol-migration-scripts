@@ -20,3 +20,10 @@ export type ProjectData = {
   metadataCid: string;
   metadata: any;
 }
+
+export type AlloV1ToV2Mapping = {
+  projectId: string;
+  projectChainId: number;
+  profileId: string;
+  profileChainId: number;
+}
