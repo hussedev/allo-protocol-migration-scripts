@@ -36,26 +36,29 @@ export const migrate = async () => {
 
     // Get actual data needed for creation
     const encodedProfileData = encodeDataForCreateProfiles(profileDataBatch);
-    let decodedProfiles;
+    let decodedProfiles = [];
 
     // Create profiles
     try {
       console.log("Creating profiles for batch", i);
-      
-      const staticCallResult = await bulkCreationContract.callStatic.createProfiles(
-        process.env.REGISTRY_ADDRESS,
-        encodedProfileData
-      );
+
+      const staticCallResult =
+        await bulkCreationContract.callStatic.createProfiles(
+          process.env.REGISTRY_ADDRESS,
+          encodedProfileData,
+        );
+
       const createTx = await bulkCreationContract.createProfiles(
         process.env.REGISTRY_ADDRESS,
-        encodedProfileData
+        encodedProfileData,
       );
 
+      console.log("Txn hash:", createTx.hash);
+
       await createTx.wait();
-      const response =  staticCallResult.toString();
+      const response = staticCallResult.toString();
       console.log("Response from txn:", response);
       decodedProfiles = decodeResultFromCreateProfiles(response);
-
     } catch (e) {
       // TODO: handle error
       console.error(e);

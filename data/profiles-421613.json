@@ -45,7 +45,7 @@
     "projectId": "0xffb3caf800fddd73dc8f3550b01d404c7e331238e841ce013c2a03227825feee",
     "chainId": 421613,
     "data": {
-      "nonce": 1000,
+      "nonce": 1001,
       "name": "EthWarsaw",
       "metadata": {
         "protocol": 1,

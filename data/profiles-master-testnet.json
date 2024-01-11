@@ -45,7 +45,7 @@
     "projectId": "0xffb3caf800fddd73dc8f3550b01d404c7e331238e841ce013c2a03227825feee",
     "chainId": 421613,
     "data": {
-      "nonce": 1000,
+      "nonce": 1001,
       "name": "EthWarsaw",
       "metadata": {
         "protocol": 1,
@@ -73,7 +73,7 @@
     "projectId": "0xb755753109e0bc5ac96596e7d317adab023f2f95cd058942ee9f52ded914bf29",
     "chainId": 58008,
     "data": {
-      "nonce": 1000,
+      "nonce": 1001,
       "name": "Test",
       "metadata": {
         "protocol": 1,
@@ -101,7 +101,7 @@
     "projectId": "0xed4edd39c89a20670cc1aa126ee79fef58d252ae80ddcce6af427917a3ebd837",
     "chainId": 58008,
     "data": {
-      "nonce": 1000,
+      "nonce": 1001,
       "name": "Book Club",
       "metadata": {
         "protocol": 1,

@@ -54,8 +54,5 @@ export const encodeDataForCreateProfiles = (data: ProfileData[]) : string => {
 };
 
 export const decodeResultFromCreateProfiles = (result: string) => {
-  return abiEncoder.decode(
-    ["bytes32[]"],
-    result
-  );
+  return abiEncoder.decode(["bytes32[]"], result)[0] as string[];
 };

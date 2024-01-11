@@ -35,10 +35,10 @@ const fetchProjectsFromChain = gql`
  */
 const transformProjectsToProfiles = (
   projects: ProjectData[],
-  chainId: number
+  chainId: number,
 ) => {
   console.log(
-    `Transforming ${projects.length} projects to profiles for chain ${chainId}`
+    `Transforming ${projects.length} projects to profiles for chain ${chainId}`,
   );
   const profiles: ProfileData[] = [];
 
@@ -46,7 +46,9 @@ const transformProjectsToProfiles = (
     const { id, ownerAddresses, metadataCid, metadata } = project;
 
     // increment nonce for each owner address
-    nonces[ownerAddresses[0]] = nonces[ownerAddresses[0]]++ || DEFAULT_NONCE;
+    nonces[ownerAddresses[0]] = nonces[ownerAddresses[0]]
+      ? ++nonces[ownerAddresses[0]]
+      : DEFAULT_NONCE;
 
     // create profile data needed for allo v2
     const data = {
@@ -87,13 +89,13 @@ export const fetchV1Profiles = async () => {
       fetchProjectsFromChain,
       {
         chainId: chainId,
-      }
+      },
     );
 
     // transform v1 projects to profiles
     const profilesOnChain = transformProjectsToProfiles(
       response.projects,
-      chainId
+      chainId,
     );
 
     profiles.push(...profilesOnChain);
@@ -101,7 +103,7 @@ export const fetchV1Profiles = async () => {
     // Write profiles to file for each chain
     fs.writeFileSync(
       `./data/profiles-${chainId}.json`,
-      JSON.stringify(profilesOnChain, null, 2)
+      JSON.stringify(profilesOnChain, null, 2),
     );
 
     console.log(`total profiles for ${chainId}: `, profilesOnChain.length);
@@ -110,7 +112,7 @@ export const fetchV1Profiles = async () => {
   // Write all profiles to master file
   fs.writeFileSync(
     `./data/profiles-master-${CHAIN}.json`,
-    JSON.stringify(profiles, null, 2)
+    JSON.stringify(profiles, null, 2),
   );
 
   console.log("total profiles: ", profiles.length);
