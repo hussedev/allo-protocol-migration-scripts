@@ -1,5 +1,6 @@
 import { Contract, ethers } from "ethers";
 import bulkCreation from "../abis/BulkCreation.json";
+import { ProfileData } from "../types";
 
 export const provider = new ethers.providers.JsonRpcProvider(
   process.env.PROVIDER_URL as string
@@ -18,7 +19,22 @@ export const bulkCreationContract = new ethers.Contract(
 
 export const abiEncoder = ethers.utils.defaultAbiCoder;
 
-export const encodeDataForCreateProfiles = (data: any[]) : string => {
+export const encodeDataForCreateProfiles = (data: ProfileData[]) : string => {
+
+  let projectIds = [];
+  let nonces = [];
+  let names = [];
+  let metadatas = [];
+  let owners = [];
+
+  for(let i = 0; i < data.length; i++) {
+    projectIds.push(data[i].projectId);
+    nonces.push(data[i].data.nonce);
+    names.push(data[i].data.name);
+    metadatas.push(data[i].data.metadata);
+    owners.push(data[i].data.owner);
+  }
+  
   return abiEncoder.encode(
     [
       "bytes32[]",
@@ -27,7 +43,13 @@ export const encodeDataForCreateProfiles = (data: any[]) : string => {
       "tuple(uint256 protocol, string pointer)[]",
       "address[]",
     ],
-    [data]
+    [
+      projectIds,
+      nonces,
+      names,
+      metadatas,
+      owners,
+    ]
   );
 };
 

@@ -31,18 +31,11 @@ export const migrate = async () => {
   let projectToProfileMapping: AlloV1ToV2Mapping[] = [];
 
   for (let i = 0; i < BATCHES; i++) {
-    const batch = profileDatas.slice(i * CHUNK_SIZE, (i + 1) * CHUNK_SIZE);
+    const profileDataBatch = profileDatas.slice(i * CHUNK_SIZE, (i + 1) * CHUNK_SIZE);
 
     // Get actual data needed for creation
-    const profiles = [];
-    let encodedProfileData;
+    const encodedProfileData = encodeDataForCreateProfiles(profileDataBatch);
     let decodedProfiles;
-
-    for (let j = 0; j < batch.length; j++) {
-      const profileData = batch[j];
-      profiles.push(profileData.data);
-      encodedProfileData = encodeDataForCreateProfiles(profiles);
-    }
 
     // Create profiles
     try {
@@ -68,8 +61,8 @@ export const migrate = async () => {
     }
 
     // Create the mapping
-    for (let j = 0; j < batch.length; j++) {
-      const profileData = batch[j];
+    for (let j = 0; j < profileDataBatch.length; j++) {
+      const profileData = profileDataBatch[j];
 
       projectToProfileMapping.push({
         projectId: profileData.projectId,
