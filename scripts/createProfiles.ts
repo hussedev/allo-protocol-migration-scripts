@@ -1,7 +1,7 @@
 import * as dotenv from "dotenv";
 import ethers, { Contract } from "ethers";
 import fs from "fs";
-import { abi } from "../abis/bulkCreateProfile";
+import { abi } from "../abis/BulkCreation";
 import { mainnets, testnets } from "../common/networks";
 import { ProfileData } from "../types";
 
