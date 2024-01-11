@@ -1,10 +1,11 @@
 {
   "name": "migration-scripts",
   "scripts": {
-    "fetch": "tsc && node ./dist/scripts/fetchProfiles.js"
+    "fetch": "tsc && node ./dist/scripts/fetchProfiles.js",
+    "create": "tsc && node ./dist/scripts/createProfiles.js"
   },
   "dependencies": {
-    "@allo-team/allo-v2-sdk": "^1.0.34",
+    "@allo-team/allo-v2-sdk": "^1.0.36",
     "allo-indexer-client": "github:gitcoinco/allo-indexer-client",
     "ethers": "^6.9.2",
     "graphql-request": "^6.1.0",

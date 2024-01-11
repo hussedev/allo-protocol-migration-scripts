@@ -13,6 +13,9 @@ const DEFAULT_NONCE = 1000;
 // mapping from string to number called nonces
 const nonces: { [key: string]: number } = {};
 
+/**
+ * Fetch projects from indexer query.
+ */
 const fetchProjectsFromChain = gql`
   query getProjectsFromChain($chainId: Int!) {
     projects(
@@ -27,6 +30,9 @@ const fetchProjectsFromChain = gql`
   }
 `;
 
+/**
+ * Transform v1 projects to profiles.
+ */
 const transformProjectsToProfiles = (
   projects: ProjectData[],
   chainId: number
@@ -68,6 +74,9 @@ const transformProjectsToProfiles = (
   return profiles;
 };
 
+/**
+ * Fetch v1 projects from indexer and transform to profiles ready for v2 profile creation.
+ */
 export const fetchV1Profiles = async () => {
   const profiles: ProfileData[] = [];
 
@@ -81,7 +90,7 @@ export const fetchV1Profiles = async () => {
       }
     );
 
-    // transform projects to profiles
+    // transform v1 projects to profiles
     const profilesOnChain = transformProjectsToProfiles(
       response.projects,
       chainId
