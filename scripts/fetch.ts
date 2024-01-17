@@ -19,8 +19,11 @@ const nonces: { [key: string]: number } = {};
 const fetchProjectsFromChain = gql`
   query getProjectsFromChain($chainId: Int!) {
     projects(
-      condition: { chainId: $chainId }
-      filter: { metadata: { isNull: false } }
+      filter: {
+        tags: {equalTo: "allo-v1"},
+        metadata: {isNull: false},
+        chainId: {equalTo: $chainId}
+      }
     ) {
       id
       ownerAddresses
@@ -50,10 +53,13 @@ const transformProjectsToProfiles = (
       ? ++nonces[ownerAddresses[0]]
       : DEFAULT_NONCE;
 
+  console.log("metadata", metadata);
+  
+
     // create profile data needed for allo v2
     const data = {
       nonce: nonces[ownerAddresses[0]],
-      name: metadata["title"],
+      name: metadata["title"] || metadata["name"],
       metadata: {
         protocol: 1,
         pointer: metadataCid,
@@ -70,7 +76,9 @@ const transformProjectsToProfiles = (
       data: data,
     };
 
-    profiles.push(profile);
+    // if (profile.data.name) {
+      profiles.push(profile);
+    // }
   }
 
   return profiles;

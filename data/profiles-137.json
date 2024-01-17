@@ -2842,6 +2842,20 @@
     }
   },
   {
+    "projectId": "0xe8c5851b789302eb643e9e5bb3cef0f7746b78614923cf215b97fd964d0791c7",
+    "chainId": 137,
+    "data": {
+      "nonce": 1000,
+      "name": "RollupRadar",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreicw6sdzwvwdlo3kplfz3e2ml7a3divwba6nukochfrojl6alequue"
+      },
+      "owner": "0xdd1626ff4d9ad5edff2ede590194dbfdd753d2a0",
+      "members": []
+    }
+  },
+  {
     "projectId": "0xe904d3149978faa3780fbae3a05abc4a2c04e6689fb1a05688fa211ff5f68947",
     "chainId": 137,
     "data": {

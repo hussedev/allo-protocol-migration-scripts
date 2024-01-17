@@ -812,6 +812,20 @@
     }
   },
   {
+    "projectId": "0x228e663604b3142b21ab0e28ec1d15ca0b484da8a9ffe48b342422d42fac018d",
+    "chainId": 42161,
+    "data": {
+      "nonce": 1000,
+      "name": "JOIN",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreiazx2sx4ztd7hk5wr3vuxi2bx3xpjhsswytf6fycsmyjqgaasdpry"
+      },
+      "owner": "0x1d693a4425bf7ed10fe7775e2b65b072019ffceb",
+      "members": []
+    }
+  },
+  {
     "projectId": "0x22d1e30987e4326993bfcab5476712de3917331792191b3bf3b6096130b94662",
     "chainId": 42161,
     "data": {
