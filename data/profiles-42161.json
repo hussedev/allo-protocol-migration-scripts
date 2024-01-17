@@ -2730,6 +2730,20 @@
     }
   },
   {
+    "projectId": "0x747cd9a8495a66f77d877f14ea91fa256bd40eeed1700460cb7f0587cae3855d",
+    "chainId": 42161,
+    "data": {
+      "nonce": 1000,
+      "name": "Steadefi",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreidnl76ze75ryszrmyctt2orqjbd4w6g4ylohh4rcen6lcajb3sk4m"
+      },
+      "owner": "0xe6feed5ae6f960befcf0a68313ef19e782a039c0",
+      "members": []
+    }
+  },
+  {
     "projectId": "0x74dce7d64f30a689605599061720e9949360fef093a9ca926856f1d4c730a3e4",
     "chainId": 42161,
     "data": {
@@ -3262,6 +3276,20 @@
     }
   },
   {
+    "projectId": "0x8c81baa3aa3e6ae1ef163785296d001b626e17ef277e1e7d388cb297e2417124",
+    "chainId": 42161,
+    "data": {
+      "nonce": 1000,
+      "name": "DeFi Pool Share",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreif7cioguzbiv5lk47zx27ovwshjcbxdm3am2lcxzgr3mt6qd7wgqi"
+      },
+      "owner": "0x64642dc9a06863aacdc86848c80c64c250f4ee8a",
+      "members": []
+    }
+  },
+  {
     "projectId": "0x8f0fa96ae447e6fd700fe44943116d6b3e0d4a39a8ed86c25f16073aebeb2068",
     "chainId": 42161,
     "data": {
@@ -3524,6 +3552,20 @@
         "pointer": "bafkreichquqjigjqsqxsllr356ibrv2pmhn3s2n5q2s5b243wtql6dzwtu"
       },
       "owner": "0xa5c7a71a6bb4088156ce980a2c709e9c50d5e9e0",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0x95ec0ebe5a8499e55480e05439c677f007fe88b9d5b17a254203e112172e5b61",
+    "chainId": 42161,
+    "data": {
+      "nonce": 1000,
+      "name": "Arbitrum Uniswap V3 TWAP Bot",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreibvvljrbrui2x53gndrezt2yypkpiyp75xmihfrvicgzoa6cth6ma"
+      },
+      "owner": "0xb0ec7136ac7ba15febf10030313343b26e0caf60",
       "members": []
     }
   },
@@ -3990,6 +4032,20 @@
     }
   },
   {
+    "projectId": "0xa9cda35a206e6fa2325512c0e0a58c22bef542f25aa7ea1281ac155ffa28be3f",
+    "chainId": 42161,
+    "data": {
+      "nonce": 1000,
+      "name": "THE FASHION DREAM PROJECT ",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreiar5626vdosvnacq5ckz5qnyoz26kx4r5dqohbmq2nw24q4e2blke"
+      },
+      "owner": "0x24894ec446c4a47700b0cca04f1fe1744fd5e530",
+      "members": []
+    }
+  },
+  {
     "projectId": "0xaa2499a3dc8be88d1769016f9fef5482a4cf159943d237bc82e0a24e7523f2be",
     "chainId": 42161,
     "data": {
@@ -4098,6 +4154,20 @@
         "pointer": "bafkreifn4hd2xmxa5aacyqpk5nyg7gmjo62dlgdzggn35b2nqlwoxer77e"
       },
       "owner": "0x89ec4e516c00a2afaf5bbd89a1b26fd975c8c5d0",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0xae7507d5a9e0744c0338ceb82e7aaf9e0d6d9ca34619d30ce3c736de4b3bda2c",
+    "chainId": 42161,
+    "data": {
+      "nonce": 1000,
+      "name": "For slots",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreihpv5o35bmadsagots2fqiskkp2v5eipavbu3vmzz6wmccudekj4i"
+      },
+      "owner": "0xb36e7f7e4c59bae4eaa32d0815e4cddf739fa3cf",
       "members": []
     }
   },
@@ -4476,6 +4546,20 @@
         "pointer": "bafkreicqz5blsuedcv5b5nol2yibhjdgbdmsy7wpkhii2tlaqcqtblkcsm"
       },
       "owner": "0xa0f6035734d1163821bf527054a16eb83a4f0471",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0xbe272a7175f32323005b1a2497aa2e6a4381542d5c86ecc196c69c7f8df35f8b",
+    "chainId": 42161,
+    "data": {
+      "nonce": 1000,
+      "name": "1PAY",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreiark2mhy323ezemo2xw2y6m2akuzjaqjssynzyihp3tzc5ydmy4sq"
+      },
+      "owner": "0xaea6fd6ffc646a758070393cf0b0ab3d54b3f55e",
       "members": []
     }
   },
@@ -5463,7 +5547,7 @@
     "projectId": "0xe435c4a490e2967045702887ea4e2194aee8a4c9112e073bdb76eabdad181242",
     "chainId": 42161,
     "data": {
-      "nonce": 1010,
+      "nonce": 1011,
       "name": "The Space Orbit Chain Research Group",
       "metadata": {
         "protocol": 1,

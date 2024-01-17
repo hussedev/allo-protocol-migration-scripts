@@ -5505,7 +5505,7 @@
     "projectId": "0xde911fbd1751098258b7f2511cc84a00b3af2608fe0ffe7278dafe85620acfc1",
     "chainId": 424,
     "data": {
-      "nonce": 1002,
+      "nonce": 1003,
       "name": "Glo Dollar",
       "metadata": {
         "protocol": 1,

@@ -1,5 +1,19 @@
 [
   {
+    "projectId": "0x01344f0cc1957797b6bacdc7d6d824425379c714a71dfd0abd951dcc41d3c33e",
+    "chainId": 137,
+    "data": {
+      "nonce": 1000,
+      "name": "DeCenter AI",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreigltmwfmhhym2z3k253o4bs7upoye4sznba6vl6kcxfo4j4amubby"
+      },
+      "owner": "0xe86db685cb285b435be8892ccf2b51f641a000df",
+      "members": []
+    }
+  },
+  {
     "projectId": "0x016ef512334face11421902b04928b91de638fce88bfc894f750615ba701854e",
     "chainId": 137,
     "data": {
@@ -329,7 +343,7 @@
       "name": "FlipGuard",
       "metadata": {
         "protocol": 1,
-        "pointer": "bafkreict4blrzitff2jqtoap2azb7mkxqpho7sipb7qycunb7pyqsx4vhe"
+        "pointer": "bafkreie6e25xl3khh3rz35vkfi2stzs4zqrex7wyj6yocss3s3yxzcohl4"
       },
       "owner": "0xd5f84a92ed3de870632ad18b145758e984caae68",
       "members": []
@@ -469,7 +483,7 @@
       "name": "SmartMuv (Dapp Explorer)",
       "metadata": {
         "protocol": 1,
-        "pointer": "bafkreic2tr5ti2gtw43jhx3cumbwv3ni3d6cst4xibf52dgxiy3odgvqwi"
+        "pointer": "bafkreiax5a4l73ttygiprk6sbnlbhf4zndkwx2w3harfv2tivt5ewmxdzy"
       },
       "owner": "0x1fc5d064f705e31068f0c4250a31f8f9b6bce380",
       "members": []
@@ -588,6 +602,20 @@
     }
   },
   {
+    "projectId": "0x3266c9004d9cafe03a4cc0920352bf60c598c0efeae4f824c85158079dbed811",
+    "chainId": 137,
+    "data": {
+      "nonce": 1000,
+      "name": "OnChainVision",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreifndzyui7rxu2rtegejbpzcjrrrtt7nri5c4yp2dbrwbjngvtvcji"
+      },
+      "owner": "0xc04b00d02326de30e1a648c10b60205ce76059e8",
+      "members": []
+    }
+  },
+  {
     "projectId": "0x3322a926e781732285a6e2cd11e3df8e0a33ff9894c34a8fd19886951413e156",
     "chainId": 137,
     "data": {
@@ -658,6 +686,20 @@
     }
   },
   {
+    "projectId": "0x36b1fa02b630e451cbaad0da2f6e2e31d5048883f2514b9822e64115abd8ab80",
+    "chainId": 137,
+    "data": {
+      "nonce": 1000,
+      "name": "Olecsandr Manko",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreievpnd3bah2ltrpw3iu425swpeilksdrdeyi5rtxb5nznh4552gla"
+      },
+      "owner": "0x834647c6b7021660c419a2b77de36483e5687f34",
+      "members": []
+    }
+  },
+  {
     "projectId": "0x37b657d40de9bbed3b71e9cf58b74ec24b849e3fd2330259310575b9836c369c",
     "chainId": 137,
     "data": {
@@ -710,6 +752,20 @@
         "pointer": "bafkreiba5jop3n7j57ihxmso2yl2xo47dfll7eknfurn4rzrhkcj5or3ka"
       },
       "owner": "0xd68da5721d4a487d6efc2b51eb39b71bb1ca764a",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0x3a97fbba9fef9e678342fa2b89cfd66b74eb97b1cecbd6e17ae5c4e44acb5f90",
+    "chainId": 137,
+    "data": {
+      "nonce": 1001,
+      "name": "0xRivendell",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreiavtk3j5dlr3kze322y7ow5r4umf5slnyjger5uucextxtpoyihee"
+      },
+      "owner": "0x03f142529a7b70305c07a50faa44f6ebdadb4624",
       "members": []
     }
   },
@@ -868,6 +924,20 @@
     }
   },
   {
+    "projectId": "0x44c37287fcb58c29e49d1eeba2b15a0aaf3039c7cc55b41c11690c7103dec040",
+    "chainId": 137,
+    "data": {
+      "nonce": 1000,
+      "name": "Polylastic",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreihswjyj5klz2gpf5afkkpr6onc5q34agwfcb3a2jomijgt4v3awzu"
+      },
+      "owner": "0x80b612147e792b06482657beae58dc87bd9a9d1e",
+      "members": []
+    }
+  },
+  {
     "projectId": "0x44cc2074bd0edaf0a3ef0b0ae63b11c5c8b7d57ef3878f6dd14412b914bf62ad",
     "chainId": 137,
     "data": {
@@ -892,6 +962,20 @@
         "pointer": "bafkreict6mi7sxjkxn3klfzn3zoy72m32vhuau4xpmvgyu36jaqspvxicm"
       },
       "owner": "0x5b68a1ed7cf74f09e4fb9aac74d20f18523d7932",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0x461f94ff2fb955ff9936e0c0d0b0eb61fd66eb41188d66b354d4a09b52eb6c30",
+    "chainId": 137,
+    "data": {
+      "nonce": 1000,
+      "name": "$Superb",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreifbsr3yllw4pv7yzydzzugsfhlt6ni6iasgqc5l23eqy5zgkwzgjm"
+      },
+      "owner": "0xa5f979fbb959cec7977b8a2cd7e12c09e19468aa",
       "members": []
     }
   },
@@ -1442,6 +1526,20 @@
     }
   },
   {
+    "projectId": "0x73685068a6a6bd0b4298b80d441234a573be1f825cf124b7fa407c48fdd9d415",
+    "chainId": 137,
+    "data": {
+      "nonce": 1000,
+      "name": "THX Network",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreiauhz5hxvhr63effeti2cnxcfcd5yxfsurma2cnzaccq42xjmuigu"
+      },
+      "owner": "0x0b8e0aaf940cc99eda5da5ab0a8d6ed798edc08a",
+      "members": []
+    }
+  },
+  {
     "projectId": "0x73fc4c3b7d042be53a01d5dee4883dd1cb3b068c28b2c86aee3a6384546ad5f1",
     "chainId": 137,
     "data": {
@@ -1680,6 +1778,20 @@
     }
   },
   {
+    "projectId": "0x84e4edbd96b43cea13a05f8ed027e10dc9374cedce2a4479474f70877396ffb2",
+    "chainId": 137,
+    "data": {
+      "nonce": 1000,
+      "name": "Box Protocol",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreifz3tgh7hclll3nqwqujutygwu55bqbikv3yu3clx2t2aksa35yn4"
+      },
+      "owner": "0xd43abda398a684b25595b5460a8040005d69d32d",
+      "members": []
+    }
+  },
+  {
     "projectId": "0x88a260d90b042177ad288412bfaeae7f51d7fefcb62f3da35b1a7010b9d5977e",
     "chainId": 137,
     "data": {
@@ -1778,6 +1890,48 @@
     }
   },
   {
+    "projectId": "0x9253c8ddfed620926186c8ce614ff841415f2bfe62fb3edea84299afc4b6bbe3",
+    "chainId": 137,
+    "data": {
+      "nonce": 1000,
+      "name": "Nefture",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreievm2bh7j7uybr37jjm4pwbmbp6p4touz6ixv67h2l7xxvdoofsqa"
+      },
+      "owner": "0xebc73e788e28687ceddac4f8427ae69351e8d0b2",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0x9290b159c482208ebc97b3c7865a744426ed2209ca8fb708b4071dac0bc7e26e",
+    "chainId": 137,
+    "data": {
+      "nonce": 1000,
+      "name": "Commons Stack",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreifv3nzp3s76qoxr5qxwbtpb3igvdxgx4vn2ptf2v6b5qyx36dw5g4"
+      },
+      "owner": "0xb760fe1bbc4a2752abcbb28291a57cb0ca99ff44",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0x93983129b21630694c2772690777737a0f4a0155d224087872b3833c9ef985f8",
+    "chainId": 137,
+    "data": {
+      "nonce": 1002,
+      "name": "Glo Dollar",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreieeimvuuiifbrip7bj7pqpmwhwoj5m4xkiqtoldnodnpjyfgnicmu"
+      },
+      "owner": "0x1bbfc95b826693bf17665f36a66ac9c389b7e581",
+      "members": []
+    }
+  },
+  {
     "projectId": "0x94eb97247c425470175ec5573d9a21fa6dfb93ae4ce534a0d8c19842b1646e5f",
     "chainId": 137,
     "data": {
@@ -1830,6 +1984,20 @@
         "pointer": "bafkreifbmgn7hf3pl7vbfmbf6jl66huu7sm6rqjlmcqjrc7wurzbylbdce"
       },
       "owner": "0xdd1a65d1678be333ae60b8f3aca76ec25d3c3296",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0x95bc033a90e308127a46c333d8d697be6978ac2817133373e2635c1899a8ee6a",
+    "chainId": 137,
+    "data": {
+      "nonce": 1000,
+      "name": "pier wallet - account abstraction infrastructure as a service",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreig362h4kfuq5huiakbd5zgxfltezrgqyikhxgx2b7rl6hgimocade"
+      },
+      "owner": "0x07f2971c5b09c0255fdca0a06549e41cac8fb3c0",
       "members": []
     }
   },
@@ -1956,6 +2124,20 @@
         "pointer": "bafkreieepu6f5rktdy57wtgx6e7topbhnwciajnf7zusrnyolmuqazg5ja"
       },
       "owner": "0x20feecba49a2f3fec5a9783f172c4a9469fa6f01",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0xa477c4bfc26279e812c9a9b8c3e3823978faa6417c2218c3d27f595ebef3f249",
+    "chainId": 137,
+    "data": {
+      "nonce": 1000,
+      "name": "Domin Network: Open Network for Retail powered by RE:DREAMER Lab",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreigf5bia7lau57m2wnxu4bvxopd2a4bi4oazplhc7i5vf7isi5a4zy"
+      },
+      "owner": "0x15ba98436954699f3c166ec5cce377be19d6f5cf",
       "members": []
     }
   },
@@ -2289,9 +2471,23 @@
       "name": "Polyzoa - Scam Defender",
       "metadata": {
         "protocol": 1,
-        "pointer": "bafkreibu4vu5zwekbs2r77x62kj5ajeuhapkhxkinjjkkn57ohswa3atnm"
+        "pointer": "bafkreiax5nayaeo67hic2nzmdzbk6iwt3dgzidk2gq66x2ity7gm6qvuia"
       },
       "owner": "0x608d10b86e62b35498345bb88051d4ef45c4e2d5",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0xc6600cbd4b46654698fd6027d32efabcddfe572fb2221e51ae3ef766caeae769",
+    "chainId": 137,
+    "data": {
+      "nonce": 1000,
+      "name": "THX Network",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreigf62y6u6wcxgcyvfnqkg4c3xhlyr2x3ldipcf3jexwqr73eitph4"
+      },
+      "owner": "0x140e7364ee4e29a677a9d6ccf26ac945e7e80b65",
       "members": []
     }
   },
@@ -2492,6 +2688,20 @@
     }
   },
   {
+    "projectId": "0xd83d9cb9d837f9b068e898eab96ed5962c8f45227299bb421dd495c4b6be37b2",
+    "chainId": 137,
+    "data": {
+      "nonce": 1001,
+      "name": "1Hive Gardens",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreigr642dwuocqyez5x3apu5eqclhx3cmrc2zqg52zgw5hzre3qlnsm"
+      },
+      "owner": "0x809c9f8dd8ca93a41c3adca4972fa234c28f7714",
+      "members": []
+    }
+  },
+  {
     "projectId": "0xd86316a571b7ab7504d5a9cfb40c7b43443797fe6cf02bb564d1ee13e6693a4a",
     "chainId": 137,
     "data": {
@@ -2565,13 +2775,27 @@
     "projectId": "0xddad3c4f3b03d7ba8a2bcbd5436e5a94c753eeebffeef97fa0bd32ecd7c01d2e",
     "chainId": 137,
     "data": {
-      "nonce": 1009,
+      "nonce": 1010,
       "name": "Rod Mamin",
       "metadata": {
         "protocol": 1,
         "pointer": "bafkreidkyb2itktxxwxmlu7surovhuylby73bx3276rtwpk3udpl76g7cm"
       },
       "owner": "0xa64f2228ccec96076c82abb903021c33859082f8",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0xdecacd79fabe8153ec57dd795d77684856f3e471be913f7be8d8f36ef0e2f942",
+    "chainId": 137,
+    "data": {
+      "nonce": 1000,
+      "name": "Porfo ",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreic2ujtj5gbwdkcfkv2udsjqmgqjifierefwumuooae355jwamil3e"
+      },
+      "owner": "0xbd64c838210ce9ad6bd3d428887e612d19e1c36c",
       "members": []
     }
   },
@@ -2625,7 +2849,7 @@
       "name": "Lorefy",
       "metadata": {
         "protocol": 1,
-        "pointer": "bafkreigy2uxrrmgap26yvjxrirbm277okw7v5bjhzx326thcm53rjqfv2q"
+        "pointer": "bafkreifil3a5m3lx4duk6qasuuymp2loyadlzr4nrxpyhi6o6ctt2qqtee"
       },
       "owner": "0x50fe50c21112457edb2409bf4861ac9bfca2b546",
       "members": []
@@ -2740,6 +2964,20 @@
         "pointer": "bafkreihiopljhcbjs7h5jlpcjthss4yvi6krgaggsdkkfrvuzvuptd2z6y"
       },
       "owner": "0x557c3a3b2ab3c60e24140487e7a158c56dc21282",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0xf525312ac96e376d754d0e9f0743fbdcf2d698f30a2d4c84f38bf25f15632084",
+    "chainId": 137,
+    "data": {
+      "nonce": 1000,
+      "name": "Web3 Education and Talk (W3ET)",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreiddjhxjdmlsfjhjm3rg4ggrskrduyy7jkl4d6vot6hxginkgosf5u"
+      },
+      "owner": "0x23d572c8fb590be64d237669301c44da4dbd3d7e",
       "members": []
     }
   },

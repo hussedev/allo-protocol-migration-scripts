@@ -868,6 +868,20 @@
     }
   },
   {
+    "projectId": "0x095bacca44dedd8576766c8b39f9e71dae6f57cd14006a35435585aa675d6892",
+    "chainId": 10,
+    "data": {
+      "nonce": 1000,
+      "name": "MetaCamp ",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreicn2lx2ddwavjkkayc7jdtnl5oqgwm4dyzonnhfj6e5yde7cgsume"
+      },
+      "owner": "0x66b1de0f14a0ce971f7f248415063d44caf19398",
+      "members": []
+    }
+  },
+  {
     "projectId": "0x0975f7b3db03a7958621b8cb5af14858ffde3d7d80266f7c32b84b75350b4b22",
     "chainId": 10,
     "data": {
@@ -1568,6 +1582,20 @@
     }
   },
   {
+    "projectId": "0x117be11802f37f23e8edf7818c4701ef18f231c6c449824b8f5df3351087ccc0",
+    "chainId": 10,
+    "data": {
+      "nonce": 1000,
+      "name": "Universal Base",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreicflp6phk6r54rpgqcorfjghjek5elmi2dw6gssdexc2unjfq5coq"
+      },
+      "owner": "0x5bdb6895532099e64c2e0013eb7d0b4a2e35e337",
+      "members": []
+    }
+  },
+  {
     "projectId": "0x118a917101c9e0fbb0bf0f3701e00138995d3250e7f47712abb8efbf0ba3a33b",
     "chainId": 10,
     "data": {
@@ -1872,6 +1900,20 @@
         "pointer": "bafkreiafgmsa73wdklki2tkh4jf7wlhk7i4ocdv6wdtxoamf5ldqze5ecq"
       },
       "owner": "0x8588f3f69f7caabb2cfda31d8845fad56f9dbe4b",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0x1460ffaa2905d3604a64fb7f27b7920a1c865d638c689793d73dc80038b3d87f",
+    "chainId": 10,
+    "data": {
+      "nonce": 1001,
+      "name": "EthDev Africa",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreicbdqqpam6bki3n3fp5stj4rlp4zvdwidu5swfhgofrxjgwnu2364"
+      },
+      "owner": "0xf203d6c796b99d0f2f861d1b838074822dd64d7c",
       "members": []
     }
   },
@@ -5488,6 +5530,20 @@
     }
   },
   {
+    "projectId": "0x3a659ac1cf595449cb841a8c095fb4f964b6d6a30880a6856a126d0761eb50d1",
+    "chainId": 10,
+    "data": {
+      "nonce": 1000,
+      "name": "ytest",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreiccftlika2wq6c5i3zgyc3fpuirvk5o3qxlwkzuh3lfmvk5yo2rle"
+      },
+      "owner": "0x24597c5c68687e816ffc0c69e064cb70bb62a9cd",
+      "members": []
+    }
+  },
+  {
     "projectId": "0x3a8952a16ed9431d230844435afae8814ad9791da841e22bc88b0daf17c9bd09",
     "chainId": 10,
     "data": {
@@ -7759,7 +7815,7 @@
     "projectId": "0x5027e9246a551705ce715dabc2d1d360cdef28ded13b4710e7c72761de77b9de",
     "chainId": 10,
     "data": {
-      "nonce": 1000,
+      "nonce": 1001,
       "name": "HiroyukiNaito ethereum.org Contribution",
       "metadata": {
         "protocol": 1,
@@ -18466,6 +18522,20 @@
     }
   },
   {
+    "projectId": "0xc457cf571d26af98b5358aba5e058c031cf8ff406521dc89efd8860805bfdaea",
+    "chainId": 10,
+    "data": {
+      "nonce": 1000,
+      "name": "Oohlala",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreiavjarg4ybvm7dzupdmonwkbl5wmkvrmrssirv645id7pijjrkcqm"
+      },
+      "owner": "0xb3da159cfeb3b5319f4d5a1fc6ad7193ffbde459",
+      "members": []
+    }
+  },
+  {
     "projectId": "0xc4a16ada309ae8bc9faef03183e0b7b2b62d732282324abbb7f892b4abcff8fd",
     "chainId": 10,
     "data": {
@@ -19624,6 +19694,20 @@
         "pointer": "bafkreib5ychatpxlbfmjust7uvjpj4sh56luz2xl64o4wtrktrso4a3dzi"
       },
       "owner": "0xbdfd81ef9a146b65367f8615f127d54e32436f8b",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0xd2ae708ad8bd8f595b446a4dce33bd86bc752a1e2e8b89959ee1763c3345395f",
+    "chainId": 10,
+    "data": {
+      "nonce": 1008,
+      "name": "Networking Submodule for LunCo",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreiflqi5wwdgy2wt7ezask6qnr7s3y7dzenwaqxaal3pwuhia2yghc4"
+      },
+      "owner": "0xa64f2228ccec96076c82abb903021c33859082f8",
       "members": []
     }
   },
@@ -21073,7 +21157,7 @@
     "projectId": "0xe0b92e1f3ba6b5f9ebe295be23163da14f8716bc1ff0b6c2700d65b06f5e300d",
     "chainId": 10,
     "data": {
-      "nonce": 1008,
+      "nonce": 1009,
       "name": "GreenPill DeSpace",
       "metadata": {
         "protocol": 1,
