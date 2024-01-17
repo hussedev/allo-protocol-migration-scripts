@@ -1,8 +1,7 @@
 import * as dotenv from "dotenv";
-import ethers, { Contract } from "ethers";
 import fs from "fs";
 import { AlloV1ToV2Mapping, ProfileData } from "../types";
-import { abiEncoder, bulkCreationContract, decodeResultFromCreateProfiles, encodeDataForCreateProfiles } from "../common/client";
+import { bulkCreationContract, decodeResultFromCreateProfiles, encodeDataForCreateProfiles } from "../common/client";
 
 dotenv.config();
 

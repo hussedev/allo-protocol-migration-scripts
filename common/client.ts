@@ -1,5 +1,5 @@
 import { Contract, ethers } from "ethers";
-import bulkCreation from "../abis/BulkCreation.json";
+import alloV1ToV2ProfileMigration from "../abis/AlloV1ToV2ProfileMigration.json";
 import { ProfileData } from "../types";
 
 export const provider = new ethers.providers.JsonRpcProvider(
@@ -13,7 +13,7 @@ export const signer = new ethers.Wallet(
 
 export const bulkCreationContract = new ethers.Contract(
   process.env.BULK_CREATION_ADDRESS as string,
-  bulkCreation.abi,
+  alloV1ToV2ProfileMigration.abi,
   signer
 );
 
@@ -22,6 +22,7 @@ export const abiEncoder = ethers.utils.defaultAbiCoder;
 export const encodeDataForCreateProfiles = (data: ProfileData[]) : string => {
 
   let projectIds = [];
+  let sourceChainIds = [];
   let nonces = [];
   let names = [];
   let metadatas = [];
@@ -29,15 +30,24 @@ export const encodeDataForCreateProfiles = (data: ProfileData[]) : string => {
 
   for(let i = 0; i < data.length; i++) {
     projectIds.push(data[i].projectId);
+    sourceChainIds.push(data[i].chainId);
     nonces.push(data[i].data.nonce);
     names.push(data[i].data.name);
     metadatas.push(data[i].data.metadata);
     owners.push(data[i].data.owner);
   }
+
+  console.log("projectIds", projectIds);
+  console.log("sourceChainIds", projectIds);
+  console.log("nonces", nonces);
+  console.log("names", names);
+  console.log("metadatas", metadatas);
+  console.log("owners", owners);
   
   return abiEncoder.encode(
     [
       "bytes32[]",
+      "uint256[]",
       "uint256[]",
       "string[]",
       "tuple(uint256 protocol, string pointer)[]",
@@ -45,6 +55,7 @@ export const encodeDataForCreateProfiles = (data: ProfileData[]) : string => {
     ],
     [
       projectIds,
+      sourceChainIds,
       nonces,
       names,
       metadatas,
