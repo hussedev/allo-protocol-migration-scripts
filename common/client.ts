@@ -12,7 +12,7 @@ export const signer = new ethers.Wallet(
 );
 
 export const bulkCreationContract = new ethers.Contract(
-  process.env.BULK_CREATION_ADDRESS as string,
+  process.env.ALLO_V1_TO_V2_PROFILE_MIGRATION_ADDRESS as string,
   alloV1ToV2ProfileMigration.abi,
   signer
 );
