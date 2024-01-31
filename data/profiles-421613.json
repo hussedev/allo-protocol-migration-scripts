@@ -5,10 +5,10 @@
     "chainId": 421613,
     "data": {
       "nonce": 10008,
-      "name": "Arb Goerli Test Project",
+      "name": "Arb Goerli Test Project (edited)",
       "metadata": {
         "protocol": 1,
-        "pointer": "bafkreicjqio66mehhegcwr3ohybuqytivkmvv7oh3lqs4lamw7o2k47zhq"
+        "pointer": "bafkreicelhe3qdmizoywzd5dm2y3q2i224c3qjhe65endsrknhsecey6zu"
       },
       "owner": "0xe7eb5d2b5b188777df902e89c54570e7ef4f59ce",
       "members": []

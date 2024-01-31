@@ -19,7 +19,7 @@ const deduplicate = () => {
   
   console.log("Total profiles with duplicates : ", rawProfileDatas.length);
 
-  let seenProfiles: { [x: string]: boolean; };
+  let seenProfiles: { [x: string]: boolean; } = {};
   let duplicateProfiles: ProfileData[] = [];
 
  const deduplicatedProfiles = rawProfileDatas.filter((profileData) => {
@@ -39,9 +39,15 @@ const deduplicate = () => {
   console.log("Total profiles after removing duplicates: ", deduplicatedProfiles.length);
 
   // Log duplicates
-  console.log("Duplicate profiles: ", duplicateProfiles);
+  console.log("Duplicate profiles: ", duplicateProfiles.length);
 
-  // Write all profiles to master file
+  // Write all duplicates to duplicates master file
+  fs.writeFileSync(
+    `./data/profiles-master-${CHAIN}-duplicates.json`,
+    JSON.stringify(duplicateProfiles, null, 2)
+  );
+
+  // Write all profiles to final master file
   fs.writeFileSync(
     `./data/profiles-master-${CHAIN}-final.json`,
     JSON.stringify(deduplicatedProfiles, null, 2)
