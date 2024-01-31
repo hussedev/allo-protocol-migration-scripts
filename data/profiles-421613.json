@@ -3,7 +3,7 @@
     "projectId": "0x49e95db1a30374eef1900d64344da56526b26c33109894861d237276c040a4d6",
     "chainId": 421613,
     "data": {
-      "nonce": 1000,
+      "nonce": 10000,
       "name": "Test",
       "metadata": {
         "protocol": 1,
@@ -17,7 +17,7 @@
     "projectId": "0x6e8a6bf67a82a570286b02e16a5042899cc7effcf5ca3f8d75d2bcbc273704a7",
     "chainId": 421613,
     "data": {
-      "nonce": 1000,
+      "nonce": 10000,
       "name": "coconut",
       "metadata": {
         "protocol": 1,
@@ -31,7 +31,7 @@
     "projectId": "0xbcdbf9ae82083b3248becd5e9d19db584f4edf9056f9596ee88014373ab74f93",
     "chainId": 421613,
     "data": {
-      "nonce": 1000,
+      "nonce": 10000,
       "name": "123",
       "metadata": {
         "protocol": 1,
@@ -45,7 +45,7 @@
     "projectId": "0xffb3caf800fddd73dc8f3550b01d404c7e331238e841ce013c2a03227825feee",
     "chainId": 421613,
     "data": {
-      "nonce": 1001,
+      "nonce": 10001,
       "name": "EthWarsaw",
       "metadata": {
         "protocol": 1,

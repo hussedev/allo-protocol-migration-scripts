@@ -3,7 +3,7 @@
     "projectId": "0x3a45cc3919b87160fc4fcdba8a051ee25089324b915f30489968e987c5ebe260",
     "chainId": 58008,
     "data": {
-      "nonce": 1000,
+      "nonce": 10000,
       "name": "Test PGN Project",
       "metadata": {
         "protocol": 1,
@@ -17,7 +17,7 @@
     "projectId": "0xb755753109e0bc5ac96596e7d317adab023f2f95cd058942ee9f52ded914bf29",
     "chainId": 58008,
     "data": {
-      "nonce": 1001,
+      "nonce": 10001,
       "name": "Test",
       "metadata": {
         "protocol": 1,
@@ -31,7 +31,7 @@
     "projectId": "0xe6758daae136422d57a698ce06593b95e7517a5036da0746124150784fbc166e",
     "chainId": 58008,
     "data": {
-      "nonce": 1000,
+      "nonce": 10000,
       "name": "Book Club",
       "metadata": {
         "protocol": 1,
@@ -45,7 +45,7 @@
     "projectId": "0xed4edd39c89a20670cc1aa126ee79fef58d252ae80ddcce6af427917a3ebd837",
     "chainId": 58008,
     "data": {
-      "nonce": 1001,
+      "nonce": 10001,
       "name": "Book Club",
       "metadata": {
         "protocol": 1,
@@ -59,7 +59,7 @@
     "projectId": "0xf4f660a53e317a5d26461f2943f559cb4d089c2ff8e76da4b928b0b664891780",
     "chainId": 58008,
     "data": {
-      "nonce": 1000,
+      "nonce": 10000,
       "name": "PGN Testing Project",
       "metadata": {
         "protocol": 1,

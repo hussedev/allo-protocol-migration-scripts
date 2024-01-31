@@ -37,12 +37,12 @@ export const encodeDataForCreateProfiles = (data: ProfileData[]) : string => {
     owners.push(data[i].data.owner);
   }
 
-  console.log("projectIds", projectIds);
-  console.log("sourceChainIds", projectIds);
-  console.log("nonces", nonces);
-  console.log("names", names);
-  console.log("metadatas", metadatas);
-  console.log("owners", owners);
+  // console.log("projectIds", projectIds);
+  // console.log("sourceChainIds", sourceChainIds);
+  // console.log("nonces", nonces);
+  // console.log("names", names);
+  // console.log("metadatas", metadatas);
+  // console.log("owners", owners);
   
   return abiEncoder.encode(
     [

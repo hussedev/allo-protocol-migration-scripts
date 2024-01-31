@@ -40,6 +40,8 @@ export const migrate = async () => {
     // Create profiles
     try {
       console.log("Creating profiles for batch", i);
+      console.log("process.env.REGISTRY_ADDRESS:", process.env.REGISTRY_ADDRESS);
+      console.log("encodedProfileData:", encodedProfileData);
 
       const staticCallResult =
         await bulkCreationContract.callStatic.createProfiles(

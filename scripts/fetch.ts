@@ -7,7 +7,7 @@ import { ProfileData, ProjectData } from "../types";
 export const graphqlEndpoint = "https://indexer-staging.fly.dev/graphql";
 const CHAIN = process.env.CHAIN ?? "testnet";
 const supportedChainIds = CHAIN == "testnet" ? testnets : mainnets;
-const DEFAULT_NONCE = 1000;
+const DEFAULT_NONCE = 10000;
 // ==================== //
 
 // mapping from string to number called nonces
