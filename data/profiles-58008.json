@@ -1,6 +1,7 @@
 [
   {
     "projectId": "0x3a45cc3919b87160fc4fcdba8a051ee25089324b915f30489968e987c5ebe260",
+    "projectNumber": 1,
     "chainId": 58008,
     "data": {
       "nonce": 10000,
@@ -15,6 +16,7 @@
   },
   {
     "projectId": "0xb755753109e0bc5ac96596e7d317adab023f2f95cd058942ee9f52ded914bf29",
+    "projectNumber": 4,
     "chainId": 58008,
     "data": {
       "nonce": 10001,
@@ -29,6 +31,7 @@
   },
   {
     "projectId": "0xe6758daae136422d57a698ce06593b95e7517a5036da0746124150784fbc166e",
+    "projectNumber": 2,
     "chainId": 58008,
     "data": {
       "nonce": 10000,
@@ -43,6 +46,7 @@
   },
   {
     "projectId": "0xed4edd39c89a20670cc1aa126ee79fef58d252ae80ddcce6af427917a3ebd837",
+    "projectNumber": 3,
     "chainId": 58008,
     "data": {
       "nonce": 10001,
@@ -57,6 +61,7 @@
   },
   {
     "projectId": "0xf4f660a53e317a5d26461f2943f559cb4d089c2ff8e76da4b928b0b664891780",
+    "projectNumber": 0,
     "chainId": 58008,
     "data": {
       "nonce": 10000,

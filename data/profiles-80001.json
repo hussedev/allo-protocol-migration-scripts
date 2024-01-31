@@ -1,6 +1,7 @@
 [
   {
     "projectId": "0xb0c62550f4f321ad300451c675a408aeb9b4b223a61215e98345b722934de0a6",
+    "projectNumber": 0,
     "chainId": 80001,
     "data": {
       "nonce": 10000,
@@ -15,6 +16,7 @@
   },
   {
     "projectId": "0xd1c7e3c6413105ac191e5ff0745d760c492db02536fbe14384cd45f67c082462",
+    "projectNumber": 1,
     "chainId": 80001,
     "data": {
       "nonce": 10001,

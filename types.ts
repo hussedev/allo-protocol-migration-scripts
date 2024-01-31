@@ -1,6 +1,7 @@
 export type ProfileData = {
   projectId: string;
   chainId: number;
+  projectNumber: number;
   data: {
     nonce: number;
     name: string;
@@ -16,6 +17,7 @@ export type ProfileData = {
 
 export type ProjectData = {
   id: string;
+  projectNumber: number;
   roles: Role[];
   metadataCid: string;
   metadata: any;

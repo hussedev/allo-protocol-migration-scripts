@@ -74,6 +74,7 @@ const transformProjectsToProfiles = (
 
     const profile: ProfileData = {
       projectId: id,
+      projectNumber: project.projectNumber,
       chainId: chainId,
       data: data,
     };
