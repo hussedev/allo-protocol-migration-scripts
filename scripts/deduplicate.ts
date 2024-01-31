@@ -19,11 +19,27 @@ const deduplicate = () => {
   
   console.log("Total profiles with duplicates : ", rawProfileDatas.length);
 
-  const deduplicatedProfiles = rawProfileDatas.filter((profileData: any) => (obj: any) => {
-    (key => !profileData[key] && (profileData[key] = true))(obj.data.name.join("-")) + "|" + obj.data.owner;
+  let seenProfiles: { [x: string]: boolean; };
+  let duplicateProfiles: ProfileData[] = [];
+
+ const deduplicatedProfiles = rawProfileDatas.filter((profileData) => {
+    // Create a key for each profile
+    const key = `${profileData.data.name.replace(/\s/g, "*")}|${profileData.data.owner}`;
+  
+    // Check if the profile is a duplicate
+    if (seenProfiles[key]) {
+      duplicateProfiles.push(profileData);
+      return false; // Exclude duplicate from the final array
+    } else {
+      seenProfiles[key] = true;
+      return true; // Include non-duplicate in the final array
+    }
   });
 
-  console.log("total profiles after removing duplicates: ", deduplicatedProfiles.length);
+  console.log("Total profiles after removing duplicates: ", deduplicatedProfiles.length);
+
+  // Log duplicates
+  console.log("Duplicate profiles: ", duplicateProfiles);
 
   // Write all profiles to master file
   fs.writeFileSync(
