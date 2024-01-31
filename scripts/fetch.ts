@@ -124,7 +124,7 @@ export const fetchV1Profiles = async () => {
 
   // Write all profiles to master file
   fs.writeFileSync(
-    `./data/profiles-master-${CHAIN}.json`,
+    `./data/profiles-master-${CHAIN}-raw.json`,
     JSON.stringify(profiles, null, 2),
   );
 

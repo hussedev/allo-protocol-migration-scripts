@@ -14,7 +14,7 @@ const BATCH_SIZE = Number(process.env.BATCH_SIZE);
 export const migrate = async () => {
   // read from master file for each chain
 
-  const FILE_PATH = `./data/profiles-master-${CHAIN}.json`; 
+  const FILE_PATH = `./data/profiles-master-${CHAIN}-final.json`; 
 
   const profileDatas: ProfileData[] = JSON.parse(fs.readFileSync(FILE_PATH).toString());
   

@@ -2,6 +2,7 @@
   "name": "migration-scripts",
   "scripts": {
     "fetch": "tsc && node ./dist/scripts/fetch.js",
+    "dedupe": "tsc && node ./dist/scripts/deduplicate.js",
     "migrate": "tsc && node ./dist/scripts/migrate.js"
   },
   "dependencies": {
