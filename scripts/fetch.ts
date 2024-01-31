@@ -23,10 +23,14 @@ const fetchProjectsFromChain = gql`
         tags: {equalTo: "allo-v1"},
         metadata: {isNull: false},
         chainId: {equalTo: $chainId}
+        roles: {every: {role: {equalTo: OWNER}}}
       }
     ) {
       id
-      ownerAddresses
+      projectNumber
+      roles {
+        address
+      }
       metadataCid
       metadata
     }
@@ -46,25 +50,23 @@ const transformProjectsToProfiles = (
   const profiles: ProfileData[] = [];
 
   for (const project of projects) {
-    const { id, ownerAddresses, metadataCid, metadata } = project;
+    const { id, roles, metadataCid, metadata } = project;
+    const ownerAddress = roles[0].address;
 
     // increment nonce for each owner address
-    nonces[ownerAddresses[0]] = nonces[ownerAddresses[0]]
-      ? ++nonces[ownerAddresses[0]]
-      : DEFAULT_NONCE;
-
-  console.log("metadata", metadata);
-  
+    nonces[ownerAddress] = nonces[ownerAddress]
+      ? ++nonces[ownerAddress]
+      : DEFAULT_NONCE;  
 
     // create profile data needed for allo v2
     const data = {
-      nonce: nonces[ownerAddresses[0]],
+      nonce: nonces[ownerAddress],
       name: metadata["title"] || metadata["name"],
       metadata: {
         protocol: 1,
         pointer: metadataCid,
       },
-      owner: ownerAddresses[0],
+      owner: ownerAddress,
       members: [],
     };
 
@@ -76,9 +78,11 @@ const transformProjectsToProfiles = (
       data: data,
     };
 
-    // if (profile.data.name) {
-      profiles.push(profile);
-    // }
+    if (!profile.data.name) {
+      console.log("no name for profile: ", profile);
+    }
+
+    profiles.push(profile);
   }
 
   return profiles;

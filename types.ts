@@ -16,9 +16,13 @@ export type ProfileData = {
 
 export type ProjectData = {
   id: string;
-  ownerAddresses: string[];
+  roles: Role[];
   metadataCid: string;
   metadata: any;
+}
+
+type Role = {
+  address: string;
 }
 
 export type AlloV1ToV2Mapping = {
