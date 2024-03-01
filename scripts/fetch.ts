@@ -20,10 +20,10 @@ const fetchProjectsFromChain = gql`
   query getProjectsFromChain($chainId: Int!) {
     projects(
       filter: {
-        tags: {equalTo: "allo-v1"},
-        metadata: {isNull: false},
-        chainId: {equalTo: $chainId}
-        roles: {every: {role: {equalTo: OWNER}}}
+        tags: { equalTo: "allo-v1" }
+        metadata: { isNull: false }
+        chainId: { equalTo: $chainId }
+        roles: { every: { role: { equalTo: OWNER } } }
       }
     ) {
       id
@@ -56,7 +56,7 @@ const transformProjectsToProfiles = (
     // increment nonce for each owner address
     nonces[ownerAddress] = nonces[ownerAddress]
       ? ++nonces[ownerAddress]
-      : DEFAULT_NONCE;  
+      : DEFAULT_NONCE;
 
     // create profile data needed for allo v2
     const data = {
@@ -81,9 +81,9 @@ const transformProjectsToProfiles = (
 
     if (!profile.data.name) {
       console.log("no name for profile: ", profile);
+    } else {
+      profiles.push(profile);
     }
-
-    profiles.push(profile);
   }
 
   return profiles;
