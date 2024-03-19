@@ -1,0 +1,3 @@
+Total profiles with duplicates :  4922
+Total profiles after removing duplicates:  4488
+Duplicate profiles:  434
