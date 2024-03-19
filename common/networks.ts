@@ -8,6 +8,7 @@ export const mainnets: number[] = [
   424, // pgn-mainnet
   43114, // avalanche
   8453, // base
+  534352,// scroll
 ]
 
 export const testnets: number[] = [
