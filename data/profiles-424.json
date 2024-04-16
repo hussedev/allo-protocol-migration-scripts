@@ -19,7 +19,7 @@
     "projectNumber": 368,
     "chainId": 424,
     "data": {
-      "nonce": 1428,
+      "nonce": 1430,
       "name": "Gitcoin Hindi Media",
       "metadata": {
         "protocol": 1,
@@ -259,7 +259,7 @@
     "projectNumber": 156,
     "chainId": 424,
     "data": {
-      "nonce": 1430,
+      "nonce": 1431,
       "name": "Kris' work as Citizens Round Operator",
       "metadata": {
         "protocol": 1,
@@ -469,7 +469,7 @@
     "projectNumber": 149,
     "chainId": 424,
     "data": {
-      "nonce": 1431,
+      "nonce": 1432,
       "name": "Ivan Molto builds Dune dashboards and SpritePG",
       "metadata": {
         "protocol": 1,
@@ -649,7 +649,7 @@
     "projectNumber": 162,
     "chainId": 424,
     "data": {
-      "nonce": 1427,
+      "nonce": 1431,
       "name": "Gitcoin Regenergy",
       "metadata": {
         "protocol": 1,
@@ -1024,7 +1024,7 @@
     "projectNumber": 395,
     "chainId": 424,
     "data": {
-      "nonce": 1430,
+      "nonce": 1431,
       "name": "Greenpill Kenya",
       "metadata": {
         "protocol": 1,
@@ -1414,7 +1414,7 @@
     "projectNumber": 340,
     "chainId": 424,
     "data": {
-      "nonce": 1428,
+      "nonce": 1429,
       "name": "learnweb3",
       "metadata": {
         "protocol": 1,
@@ -1759,7 +1759,7 @@
     "projectNumber": 144,
     "chainId": 424,
     "data": {
-      "nonce": 1432,
+      "nonce": 1435,
       "name": "Manuel Olariu",
       "metadata": {
         "protocol": 1,
@@ -2014,7 +2014,7 @@
     "projectNumber": 158,
     "chainId": 424,
     "data": {
-      "nonce": 1429,
+      "nonce": 1430,
       "name": "Cori's work running Gitcoin onboarding events & webinars",
       "metadata": {
         "protocol": 1,
@@ -2213,7 +2213,7 @@
       "name": "Human Program Representative",
       "metadata": {
         "protocol": 1,
-        "pointer": "bafkreiduvtcdna27z4xykuxjubyqb3eqeexbzk2t7atjufj3urtly7fwra"
+        "pointer": "bafkreibnchjxrnpxvcb7eghelrlpp2nsz4fkbl5ev7vzfsvpmdbzzc2sz4"
       },
       "owner": "0xcbf407c33d68a55cb594ffc8f4fd1416bba39da5",
       "members": []
@@ -2659,7 +2659,7 @@
     "projectNumber": 312,
     "chainId": 424,
     "data": {
-      "nonce": 1433,
+      "nonce": 1434,
       "name": "Regens Unite - bridging the gap between web3 and local regens",
       "metadata": {
         "protocol": 1,
@@ -2869,7 +2869,7 @@
     "projectNumber": 322,
     "chainId": 424,
     "data": {
-      "nonce": 1433,
+      "nonce": 1436,
       "name": "DeSpace QF",
       "metadata": {
         "protocol": 1,
@@ -2929,7 +2929,7 @@
     "projectNumber": 367,
     "chainId": 424,
     "data": {
-      "nonce": 1429,
+      "nonce": 1431,
       "name": "Bankless Hindi Media",
       "metadata": {
         "protocol": 1,
@@ -3109,11 +3109,11 @@
     "projectNumber": 104,
     "chainId": 424,
     "data": {
-      "nonce": 1427,
-      "name": "GrantsScope - Grantee Discovery Using LLMs",
+      "nonce": 1428,
+      "name": "GrantsScope developed by Rohit Malekar",
       "metadata": {
         "protocol": 1,
-        "pointer": "bafkreiezuac4srvtkmutbgdcx2ewqgelgkdfc3fn5tiagm45itpos6q6ye"
+        "pointer": "bafkreieusduwzrsegzshmtfqqdi3co3xufu2xdmfosvpcsy45g5nl2ajhi"
       },
       "owner": "0x2dd2036c9db2ada2739509af0047c00c8b9291ef",
       "members": []
@@ -3184,7 +3184,7 @@
     "projectNumber": 68,
     "chainId": 424,
     "data": {
-      "nonce": 1445,
+      "nonce": 1446,
       "name": "Mima's PGN Project ",
       "metadata": {
         "protocol": 1,
@@ -3499,7 +3499,7 @@
     "projectNumber": 291,
     "chainId": 424,
     "data": {
-      "nonce": 1432,
+      "nonce": 1433,
       "name": "Influenpeer",
       "metadata": {
         "protocol": 1,
@@ -3559,7 +3559,7 @@
     "projectNumber": 100,
     "chainId": 424,
     "data": {
-      "nonce": 1428,
+      "nonce": 1432,
       "name": "Regenergy",
       "metadata": {
         "protocol": 1,
@@ -3844,7 +3844,7 @@
     "projectNumber": 159,
     "chainId": 424,
     "data": {
-      "nonce": 1434,
+      "nonce": 1437,
       "name": "ManuelOlariu",
       "metadata": {
         "protocol": 1,
@@ -3919,7 +3919,7 @@
     "projectNumber": 458,
     "chainId": 424,
     "data": {
-      "nonce": 1429,
+      "nonce": 1430,
       "name": "PGN Test Project",
       "metadata": {
         "protocol": 1,
@@ -3934,7 +3934,7 @@
     "projectNumber": 106,
     "chainId": 424,
     "data": {
-      "nonce": 1434,
+      "nonce": 1435,
       "name": "Guil is onboarding and creating content for Gitcoin",
       "metadata": {
         "protocol": 1,
@@ -4159,7 +4159,7 @@
     "projectNumber": 12,
     "chainId": 424,
     "data": {
-      "nonce": 1429,
+      "nonce": 1430,
       "name": "Meme Time",
       "metadata": {
         "protocol": 1,
@@ -4264,7 +4264,7 @@
     "projectNumber": 101,
     "chainId": 424,
     "data": {
-      "nonce": 1429,
+      "nonce": 1430,
       "name": "Discord Support and twitter",
       "metadata": {
         "protocol": 1,
@@ -4309,7 +4309,7 @@
     "projectNumber": 345,
     "chainId": 424,
     "data": {
-      "nonce": 1435,
+      "nonce": 1436,
       "name": "MAX IMPACT & Let's GROW DAO",
       "metadata": {
         "protocol": 1,
@@ -4414,7 +4414,7 @@
     "projectNumber": 113,
     "chainId": 424,
     "data": {
-      "nonce": 1433,
+      "nonce": 1434,
       "name": "spritePG onchain World",
       "metadata": {
         "protocol": 1,
@@ -4819,7 +4819,7 @@
     "projectNumber": 122,
     "chainId": 424,
     "data": {
-      "nonce": 1428,
+      "nonce": 1429,
       "name": "Donny_Jerri_WeTRYBEtter",
       "metadata": {
         "protocol": 1,
@@ -4879,7 +4879,7 @@
     "projectNumber": 95,
     "chainId": 424,
     "data": {
-      "nonce": 1430,
+      "nonce": 1431,
       "name": "Memes for Gitcoin",
       "metadata": {
         "protocol": 1,
@@ -5299,7 +5299,7 @@
     "projectNumber": 16,
     "chainId": 424,
     "data": {
-      "nonce": 1428,
+      "nonce": 1429,
       "name": "What's a budget?",
       "metadata": {
         "protocol": 1,
@@ -5614,7 +5614,7 @@
     "projectNumber": 2,
     "chainId": 424,
     "data": {
-      "nonce": 1446,
+      "nonce": 1447,
       "name": "Michelle's PGN project",
       "metadata": {
         "protocol": 1,
@@ -6559,7 +6559,7 @@
     "projectNumber": 179,
     "chainId": 424,
     "data": {
-      "nonce": 1429,
+      "nonce": 1430,
       "name": "Kingfisher's Media℠",
       "metadata": {
         "protocol": 1,
@@ -6679,7 +6679,7 @@
     "projectNumber": 107,
     "chainId": 424,
     "data": {
-      "nonce": 1430,
+      "nonce": 1431,
       "name": "Gitcoin Onboarding - IRL & Online Webinars",
       "metadata": {
         "protocol": 1,
@@ -6889,7 +6889,7 @@
     "projectNumber": 157,
     "chainId": 424,
     "data": {
-      "nonce": 1427,
+      "nonce": 1428,
       "name": "Humpty Calderon",
       "metadata": {
         "protocol": 1,

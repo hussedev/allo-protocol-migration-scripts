@@ -875,10 +875,10 @@
     "chainId": 10,
     "data": {
       "nonce": 1428,
-      "name": "Jon Ruth - Discord and Telegram Superhero",
+      "name": "Jon Ruth - Deresy & Hyperminter",
       "metadata": {
         "protocol": 1,
-        "pointer": "bafkreifhxyd7dcwst3zupwm2s2z3xqq3pml6qeuv5uauqojlvz52j7lyki"
+        "pointer": "bafkreicjx646bc5bqfuyydkd2wuo7cddmleljb2zpmgf6wmvn3nda53ige"
       },
       "owner": "0xe3f4f3ad70c1190ec480554bbc3ed30285ae0610",
       "members": []
@@ -1965,6 +1965,21 @@
     }
   },
   {
+    "projectId": "0x118b6c17752f52ce9c6a76c2fc9171e69a4293ac1a2f9036cf1d0f0b53811163",
+    "projectNumber": 1939,
+    "chainId": 10,
+    "data": {
+      "nonce": 1427,
+      "name": "AlphaBlocks ",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreiadb4zfi4p3ki2k5fd27oxrj343r5w2h4zfm7vjxrjagg5beu7pv4"
+      },
+      "owner": "0xf08df83270dfbe26f7bb24ed65ffd7a8568f81b8",
+      "members": []
+    }
+  },
+  {
     "projectId": "0x11e03c12b0134f461e268dfb3596f4fe8324e65dd701863cb2659161e8997e3b",
     "projectNumber": 338,
     "chainId": 10,
@@ -2216,6 +2231,21 @@
         "pointer": "bafkreig4j5eoi6toeppilak667lxmk5q3752stdfcu5m4gzndovanxfeg4"
       },
       "owner": "0x01ecaa0b8f08dc7aa6ffc67ac397a69169401873",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0x141969b73a8f8d1ac1079ca6eae3fd21b7c38e12c772c4ac3c18be8d2e45a5f0",
+    "projectNumber": 1935,
+    "chainId": 10,
+    "data": {
+      "nonce": 1427,
+      "name": "OPxM (Optimism x AfroMusic)",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreifpstvszwp63etfl5qflqu2lhcpz73mqspvy7f2yxhuexosnl6msm"
+      },
+      "owner": "0x850a826b09f6083e189138135ed9747a321d35d2",
       "members": []
     }
   },
@@ -2914,7 +2944,7 @@
     "projectNumber": 854,
     "chainId": 10,
     "data": {
-      "nonce": 1427,
+      "nonce": 1428,
       "name": "Atlantis",
       "metadata": {
         "protocol": 1,
@@ -4159,7 +4189,7 @@
     "projectNumber": 23,
     "chainId": 10,
     "data": {
-      "nonce": 1427,
+      "nonce": 1428,
       "name": "Loanshark",
       "metadata": {
         "protocol": 1,
@@ -8385,6 +8415,21 @@
     }
   },
   {
+    "projectId": "0x497498ee742419d4ea3fc2be32f9446580174d7cad3a7edd83954a9a082211ca",
+    "projectNumber": 1941,
+    "chainId": 10,
+    "data": {
+      "nonce": 1427,
+      "name": "<3",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreieu5nn7qfukcscvbygsgxqdwned5cogf7p2cxc45uoxfqhsnw5u54"
+      },
+      "owner": "0xf17b1e80d334466dbfb4fedcf136da63903bc2ec",
+      "members": []
+    }
+  },
+  {
     "projectId": "0x49848c8163f1b2f3cdf786a1ee185634094fac7a356aa5133c097f52d7d96acc",
     "projectNumber": 1593,
     "chainId": 10,
@@ -11715,6 +11760,21 @@
     }
   },
   {
+    "projectId": "0x681df86f42c7ffc785fba4bba70cce6099d7dfd0eb04e16582bd4cce92fd3890",
+    "projectNumber": 1946,
+    "chainId": 10,
+    "data": {
+      "nonce": 1427,
+      "name": "UNDRGRND",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreiabdk7r4riccb7um4dqqma6rcfcho2lzqqm2zyxn224jc6vxljule"
+      },
+      "owner": "0x20bc4c4f593067d298fdcc14a60fef5dfc93fd8e",
+      "members": []
+    }
+  },
+  {
     "projectId": "0x682a641c12023a94f501994f18488f18e9a93947e6ce3fc8a200971dbb5aaf3a",
     "projectNumber": 457,
     "chainId": 10,
@@ -11741,6 +11801,21 @@
         "pointer": "bafkreig6vsfa556iw3ace6lgepm2zrqyygvshtq2v3ciwiwynthelwbrjq"
       },
       "owner": "0xf31df2dcd4083ee57f0d33d386656cfbd1e859a1",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0x687ac9354cf6960179037761b030392a31b6bc6ed291be298cecbd059f2096ee",
+    "projectNumber": 1933,
+    "chainId": 10,
+    "data": {
+      "nonce": 1428,
+      "name": "Wide Feels Collector Created Comic",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreifacqz2pedpwun5vpci5zk4cbrlh2n4ltt5aegdoh3rnt4oax7pq4"
+      },
+      "owner": "0x8f8202209fcc3ef9cf697ddd0b8fa06b06d844ea",
       "members": []
     }
   },
@@ -11869,7 +11944,7 @@
     "projectNumber": 423,
     "chainId": 10,
     "data": {
-      "nonce": 1429,
+      "nonce": 1430,
       "name": "DeSci Round Operators",
       "metadata": {
         "protocol": 1,
@@ -12023,7 +12098,7 @@
       "name": "Way of Bodhisattva",
       "metadata": {
         "protocol": 1,
-        "pointer": "bafkreidwfy4wmrqzf3mghakmqdb2tqfi4r4drb37fysqkuqq74hbxy5emq"
+        "pointer": "bafkreibavntwpdl6gmwojos3pwjysl5lq7k3mrxfle362sn2hgx6x7u6bm"
       },
       "owner": "0xc15aa7af05ee4bdd05b475688f912761cfa1df19",
       "members": []
@@ -12544,7 +12619,7 @@
     "projectNumber": 422,
     "chainId": 10,
     "data": {
-      "nonce": 1430,
+      "nonce": 1431,
       "name": "Manuel Olariu",
       "metadata": {
         "protocol": 1,
@@ -14644,7 +14719,7 @@
     "projectNumber": 1891,
     "chainId": 10,
     "data": {
-      "nonce": 1428,
+      "nonce": 1429,
       "name": "Atlantis",
       "metadata": {
         "protocol": 1,
@@ -16155,6 +16230,21 @@
     }
   },
   {
+    "projectId": "0x8e273d3eb831868e7210675460fff1685d5f11aac99f91a19aa1d48d207d7f45",
+    "projectNumber": 1945,
+    "chainId": 10,
+    "data": {
+      "nonce": 1427,
+      "name": "jessy",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreidnthjxi2nkwkkqxo2qpfrpc4yrxtvrakyrkn7nqaunghvntvauke"
+      },
+      "owner": "0x55c50cd11b6169aa4267e73c8fb9f89e33413b6d",
+      "members": []
+    }
+  },
+  {
     "projectId": "0x8e6842a17d8d3c4fa93c286777aa7ffea1810d9187243762d95baab0e36cc12e",
     "projectNumber": 1332,
     "chainId": 10,
@@ -16541,6 +16631,21 @@
         "pointer": "bafkreibf4cjglt2ekyk3zjoaj2av4cdbpxtxkx2toczebki5zntw3zyrsi"
       },
       "owner": "0x48655bddc5dbf0136fdfde66396ed87fbf876769",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0x924669268b0e307dab9e78e8ce0478a47ca0f13fe5b49224c9f7609791560141",
+    "projectNumber": 1931,
+    "chainId": 10,
+    "data": {
+      "nonce": 1427,
+      "name": "Citizen Retro Round Application for Constantin Gao",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreic273yz6rdpssdic4aeqjcxuatqxi5e2tflpwwmodcqbt6u5yob4m"
+      },
+      "owner": "0xc765ef644c8b39155114284055a4294abff7de04",
       "members": []
     }
   },
@@ -17186,6 +17291,21 @@
         "pointer": "bafkreib5ckfirzskuiv3aymcwmf6hsbdjjooitbxyx7z543s4z72plvb3e"
       },
       "owner": "0x38b2bac6431604dffec17a1e6adc649a9ea0efba",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0x96ad97939c2cd63a9c0c80a1a7a9ffb959cef8daa702603f71711a93038bf28d",
+    "projectNumber": 1943,
+    "chainId": 10,
+    "data": {
+      "nonce": 1427,
+      "name": "Syntropic Regen's Gitcoin Regenergy V2",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreia6sgvqn37vmln6ssd545q7hbetao42j2yqp5qycdw5ul5kllpvp4"
+      },
+      "owner": "0xca3589b6dc6b6ae9da653b82b5cf1dd2806db087",
       "members": []
     }
   },
@@ -18735,6 +18855,21 @@
     }
   },
   {
+    "projectId": "0xa5e7d40f56d6608ce4193167782e38c7ee53e33bd72f0b462dfee05fa6c5036b",
+    "projectNumber": 1937,
+    "chainId": 10,
+    "data": {
+      "nonce": 1429,
+      "name": "GG20 DeSci Gitcoin round - Citizen Maria Goreti Freitas",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreiaj7qzhoc4rn7u3vy5xslzbxlmxg2dv6hw6hlbcjzja42d3qxglqe"
+      },
+      "owner": "0x98f42f33c9ec06a585f1a97edfd61661ccfea033",
+      "members": []
+    }
+  },
+  {
     "projectId": "0xa5f1ff7e24ebb5cf402a2097e44ea371a30a9c5ddf1e559f76980cfa2060bc75",
     "projectNumber": 884,
     "chainId": 10,
@@ -18784,7 +18919,7 @@
     "projectNumber": 625,
     "chainId": 10,
     "data": {
-      "nonce": 1427,
+      "nonce": 1428,
       "name": "datalatte ☕️",
       "metadata": {
         "protocol": 1,
@@ -19601,6 +19736,21 @@
         "pointer": "bafkreihyiynqkodf643c563vjybq7lszog366mxbdkf7zwwazhejq5lkdi"
       },
       "owner": "0x81ebe8ee7b51741fd5dad31f6987e626a9bb8111",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0xacd4b476bc327e5ceb25341d9db9a2fafb428baf93d1780e98827ae532b46570",
+    "projectNumber": 1932,
+    "chainId": 10,
+    "data": {
+      "nonce": 1427,
+      "name": "LC Law",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreidfworz6ylpn6x5qiiu5gh6gofnsy2r5syusvvtn4seeyj6ux2ani"
+      },
+      "owner": "0xef4ebec817f232d73cf944fc5b2c471bab4fd697",
       "members": []
     }
   },
@@ -21345,6 +21495,21 @@
     }
   },
   {
+    "projectId": "0xbecb169e0938f8c94b7682fd98b9a0115baf437f00886db6a9129af9c7519501",
+    "projectNumber": 1936,
+    "chainId": 10,
+    "data": {
+      "nonce": 1428,
+      "name": "OPxM (Optimism x AfroMusic)",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreigjqqpqc3gbirgazjrnkbw6bo3zt2pr2jgdv5ig6ze5tmpeahytoi"
+      },
+      "owner": "0x850a826b09f6083e189138135ed9747a321d35d2",
+      "members": []
+    }
+  },
+  {
     "projectId": "0xbf2e420caf941a90caeedecf0464d908fb86c10b958a2b25ccff28009fff533f",
     "projectNumber": 941,
     "chainId": 10,
@@ -22136,6 +22301,21 @@
         "pointer": "bafkreibigsx2oghv6ffqi5obwwqhumzwfdspzooaujn7j73pimdlsmbysi"
       },
       "owner": "0xa7828c5bab02c879ceb555f567d1833b34e1402b",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0xc6a32d71879b8a6ac93550b983feaf2444ce95685e4c5dd6eec4d8d1ef030c3c",
+    "projectNumber": 1940,
+    "chainId": 10,
+    "data": {
+      "nonce": 1427,
+      "name": "The Unseen Enemy - AI Movie Trailer",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreiekpolovjkgjee6st4flli2nwqbncmafqqkydvt2jdo7vexrxqmlq"
+      },
+      "owner": "0x91105478a69b6ff555766cbad3ee54a170ea0887",
       "members": []
     }
   },
@@ -24064,7 +24244,7 @@
     "projectNumber": 908,
     "chainId": 10,
     "data": {
-      "nonce": 1427,
+      "nonce": 1428,
       "name": "AstroCool",
       "metadata": {
         "protocol": 1,
@@ -24281,6 +24461,21 @@
         "pointer": "bafkreifndkwbagl4emcljzvqtjymalk2mp24plf4pmvg62tyafsiuogmgm"
       },
       "owner": "0x60f02cc8b0ce8779d3e60902e1be216f70d08b11",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0xda7577ce8165c2575b5978a4a814bc72ab9826fdc95c9f4cc72677e39efa5e25",
+    "projectNumber": 1942,
+    "chainId": 10,
+    "data": {
+      "nonce": 1427,
+      "name": "IGLI",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreidswfximu4phyyk5ekqnuuh2maffyiqnyfjxauxuda6awnsevauke"
+      },
+      "owner": "0xe7389a2d3efdaa1ef330a4476f423c40af362e39",
       "members": []
     }
   },
@@ -25001,6 +25196,21 @@
         "pointer": "bafkreia4bae4o2qb5mdh2fhabgf4hf6vetdglivh7e5mhbuvmi3r3jeqwy"
       },
       "owner": "0x63b265d170f35d6bb724a6c00b4dcc822ea97867",
+      "members": []
+    }
+  },
+  {
+    "projectId": "0xe0836a44eb04ea0ad61af0e2f77f8fd99275d3928bb192a0d35b372c482c729a",
+    "projectNumber": 1934,
+    "chainId": 10,
+    "data": {
+      "nonce": 1428,
+      "name": "Gitcoin Regenergy V2",
+      "metadata": {
+        "protocol": 1,
+        "pointer": "bafkreie2sea6nyfuxu4bp62reg6jlw5yhqgg3djisedsgctd2zr6krvre4"
+      },
+      "owner": "0xca3589b6dc6b6ae9da653b82b5cf1dd2806db087",
       "members": []
     }
   },
@@ -25729,7 +25939,7 @@
     "projectNumber": 1454,
     "chainId": 10,
     "data": {
-      "nonce": 1431,
+      "nonce": 1432,
       "name": "DeepVenture.io",
       "metadata": {
         "protocol": 1,
@@ -27983,7 +28193,7 @@
       "name": "🐙 Mars - Gitcoin citizen",
       "metadata": {
         "protocol": 1,
-        "pointer": "bafkreifsogjvnzuu6htmispd5j7kbyqi4qltdwszrbv5mi3mr6ekc2jjdu"
+        "pointer": "bafkreia3daqrv5gn2fxdsifgkg4q4gpzjgkkrbfyemdbprzdoft4j27sja"
       },
       "owner": "0x85a363699c6864248a6ffca66e4a1a5ccf9f5567",
       "members": []

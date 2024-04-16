@@ -30,7 +30,7 @@ export const migrate = async () => {
 
   let projectToProfileMapping: AlloV1ToV2Mapping[] = [];
 
-  for (let i = 156; i < BATCHES; i++) {
+  for (let i = 0; i < BATCHES; i++) {
     const profileDataBatch = profileDatas.slice(i * BATCH_SIZE, (i + 1) * BATCH_SIZE);
 
     // Get actual data needed for creation

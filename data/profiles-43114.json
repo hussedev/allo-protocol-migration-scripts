@@ -45,21 +45,6 @@
     }
   },
   {
-    "projectId": "0x531da532bca73c27f95a4351b78153ff05421ca85c69d4edaba53d142c9dbd80",
-    "projectNumber": 3,
-    "chainId": 43114,
-    "data": {
-      "nonce": 1427,
-      "name": "Nunu Spirits",
-      "metadata": {
-        "protocol": 1,
-        "pointer": "bafkreig4sw5m6nwbu6bp7hurndhilysu6fritxyumm5jwnf52xq3y2ceya"
-      },
-      "owner": "0x6ea5cb2e0f410543714f1e6f940944563416ca52",
-      "members": []
-    }
-  },
-  {
     "projectId": "0x5ce0b1035f6633bdd466b5a5f7a0fab3a6df762b19d770f7e3fcb5d39e0f81c2",
     "projectNumber": 10,
     "chainId": 43114,
@@ -169,7 +154,7 @@
     "projectNumber": 0,
     "chainId": 43114,
     "data": {
-      "nonce": 1447,
+      "nonce": 1448,
       "name": "Michelle's Avalanche Project",
       "metadata": {
         "protocol": 1,
@@ -184,7 +169,7 @@
     "projectNumber": 1,
     "chainId": 43114,
     "data": {
-      "nonce": 1448,
+      "nonce": 1449,
       "name": "Michelle's Avalanche Project #2",
       "metadata": {
         "protocol": 1,
